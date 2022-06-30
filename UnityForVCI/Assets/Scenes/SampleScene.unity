@@ -121,1238 +121,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &38661260
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 38661261}
-  - component: {fileID: 38661264}
-  - component: {fileID: 38661263}
-  - component: {fileID: 38661262}
-  m_Layer: 0
-  m_Name: FallCharText (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &38661261
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 38661260}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0.002}
-  m_LocalScale: {x: 0.15, y: 0.15, z: 0.15}
-  m_Children: []
-  m_Father: {fileID: 1307042987}
-  m_RootOrder: 8
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1, y: 1}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &38661262
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 38661260}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9541d86e2fd84c1d9990edf0852d74ab, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_text: V
-  m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
-  m_fontColor32:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
-  m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
-  m_tintAllSprites: 0
-  m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
-  m_overrideHtmlColors: 0
-  m_faceColor:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontSize: 13
-  m_fontSizeBase: 13
-  m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
-  m_fontStyle: 0
-  m_HorizontalAlignment: 2
-  m_VerticalAlignment: 512
-  m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_wordSpacing: 0
-  m_lineSpacing: 0
-  m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
-  m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 0
-  m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_linkedTextComponent: {fileID: 0}
-  parentLinkedComponent: {fileID: 0}
-  m_enableKerning: 1
-  m_enableExtraPadding: 0
-  checkPaddingRequired: 0
-  m_isRichText: 1
-  m_parseCtrlCharacters: 1
-  m_isOrthographic: 0
-  m_isCullingEnabled: 0
-  m_horizontalMapping: 0
-  m_verticalMapping: 0
-  m_uvLineOffset: 0
-  m_geometrySortingOrder: 0
-  m_IsTextObjectScaleStatic: 0
-  m_VertexBufferAutoSizeReduction: 0
-  m_useMaxVisibleDescender: 1
-  m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
-  m_isUsingLegacyAnimationComponent: 0
-  m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
-  m_renderer: {fileID: 38661264}
-  m_maskType: 0
-  _SortingLayer: 0
-  _SortingLayerID: 0
-  _SortingOrder: 0
---- !u!222 &38661263
-CanvasRenderer:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 38661260}
-  m_CullTransparentMesh: 0
---- !u!23 &38661264
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 38661260}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!1 &138062071
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 138062072}
-  - component: {fileID: 138062075}
-  - component: {fileID: 138062074}
-  - component: {fileID: 138062073}
-  m_Layer: 0
-  m_Name: FallCharText (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &138062072
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 138062071}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.15, y: 0.15, z: 0.15}
-  m_Children: []
-  m_Father: {fileID: 1307042987}
-  m_RootOrder: 10
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1, y: 1}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &138062073
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 138062071}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9541d86e2fd84c1d9990edf0852d74ab, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_text: V
-  m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
-  m_fontColor32:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
-  m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
-  m_tintAllSprites: 0
-  m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
-  m_overrideHtmlColors: 0
-  m_faceColor:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontSize: 13
-  m_fontSizeBase: 13
-  m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
-  m_fontStyle: 0
-  m_HorizontalAlignment: 2
-  m_VerticalAlignment: 512
-  m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_wordSpacing: 0
-  m_lineSpacing: 0
-  m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
-  m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 0
-  m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_linkedTextComponent: {fileID: 0}
-  parentLinkedComponent: {fileID: 0}
-  m_enableKerning: 1
-  m_enableExtraPadding: 0
-  checkPaddingRequired: 0
-  m_isRichText: 1
-  m_parseCtrlCharacters: 1
-  m_isOrthographic: 0
-  m_isCullingEnabled: 0
-  m_horizontalMapping: 0
-  m_verticalMapping: 0
-  m_uvLineOffset: 0
-  m_geometrySortingOrder: 0
-  m_IsTextObjectScaleStatic: 0
-  m_VertexBufferAutoSizeReduction: 0
-  m_useMaxVisibleDescender: 1
-  m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
-  m_isUsingLegacyAnimationComponent: 0
-  m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
-  m_renderer: {fileID: 138062075}
-  m_maskType: 0
-  _SortingLayer: 0
-  _SortingLayerID: 0
-  _SortingOrder: 0
---- !u!222 &138062074
-CanvasRenderer:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 138062071}
-  m_CullTransparentMesh: 0
---- !u!23 &138062075
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 138062071}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!1 &463145535
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 463145536}
-  - component: {fileID: 463145539}
-  - component: {fileID: 463145538}
-  - component: {fileID: 463145537}
-  m_Layer: 0
-  m_Name: FallCharText (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &463145536
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 463145535}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0.010000001}
-  m_LocalScale: {x: 0.15, y: 0.15, z: 0.15}
-  m_Children: []
-  m_Father: {fileID: 1307042987}
-  m_RootOrder: 20
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1, y: 1}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &463145537
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 463145535}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9541d86e2fd84c1d9990edf0852d74ab, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_text: V
-  m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
-  m_fontColor32:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
-  m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
-  m_tintAllSprites: 0
-  m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
-  m_overrideHtmlColors: 0
-  m_faceColor:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontSize: 13
-  m_fontSizeBase: 13
-  m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
-  m_fontStyle: 0
-  m_HorizontalAlignment: 2
-  m_VerticalAlignment: 512
-  m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_wordSpacing: 0
-  m_lineSpacing: 0
-  m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
-  m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 0
-  m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_linkedTextComponent: {fileID: 0}
-  parentLinkedComponent: {fileID: 0}
-  m_enableKerning: 1
-  m_enableExtraPadding: 0
-  checkPaddingRequired: 0
-  m_isRichText: 1
-  m_parseCtrlCharacters: 1
-  m_isOrthographic: 0
-  m_isCullingEnabled: 0
-  m_horizontalMapping: 0
-  m_verticalMapping: 0
-  m_uvLineOffset: 0
-  m_geometrySortingOrder: 0
-  m_IsTextObjectScaleStatic: 0
-  m_VertexBufferAutoSizeReduction: 0
-  m_useMaxVisibleDescender: 1
-  m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
-  m_isUsingLegacyAnimationComponent: 0
-  m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
-  m_renderer: {fileID: 463145539}
-  m_maskType: 0
-  _SortingLayer: 0
-  _SortingLayerID: 0
-  _SortingOrder: 0
---- !u!222 &463145538
-CanvasRenderer:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 463145535}
-  m_CullTransparentMesh: 0
---- !u!23 &463145539
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 463145535}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!1 &489524943
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 489524944}
-  - component: {fileID: 489524947}
-  - component: {fileID: 489524946}
-  - component: {fileID: 489524945}
-  m_Layer: 0
-  m_Name: FallCharText (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &489524944
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 489524943}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0.009000001}
-  m_LocalScale: {x: 0.15, y: 0.15, z: 0.15}
-  m_Children: []
-  m_Father: {fileID: 1307042987}
-  m_RootOrder: 19
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1, y: 1}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &489524945
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 489524943}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9541d86e2fd84c1d9990edf0852d74ab, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_text: V
-  m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
-  m_fontColor32:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
-  m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
-  m_tintAllSprites: 0
-  m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
-  m_overrideHtmlColors: 0
-  m_faceColor:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontSize: 13
-  m_fontSizeBase: 13
-  m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
-  m_fontStyle: 0
-  m_HorizontalAlignment: 2
-  m_VerticalAlignment: 512
-  m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_wordSpacing: 0
-  m_lineSpacing: 0
-  m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
-  m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 0
-  m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_linkedTextComponent: {fileID: 0}
-  parentLinkedComponent: {fileID: 0}
-  m_enableKerning: 1
-  m_enableExtraPadding: 0
-  checkPaddingRequired: 0
-  m_isRichText: 1
-  m_parseCtrlCharacters: 1
-  m_isOrthographic: 0
-  m_isCullingEnabled: 0
-  m_horizontalMapping: 0
-  m_verticalMapping: 0
-  m_uvLineOffset: 0
-  m_geometrySortingOrder: 0
-  m_IsTextObjectScaleStatic: 0
-  m_VertexBufferAutoSizeReduction: 0
-  m_useMaxVisibleDescender: 1
-  m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
-  m_isUsingLegacyAnimationComponent: 0
-  m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
-  m_renderer: {fileID: 489524947}
-  m_maskType: 0
-  _SortingLayer: 0
-  _SortingLayerID: 0
-  _SortingOrder: 0
---- !u!222 &489524946
-CanvasRenderer:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 489524943}
-  m_CullTransparentMesh: 0
---- !u!23 &489524947
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 489524943}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!1 &593575981
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 593575982}
-  - component: {fileID: 593575985}
-  - component: {fileID: 593575984}
-  - component: {fileID: 593575983}
-  m_Layer: 0
-  m_Name: FallCharText (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &593575982
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 593575981}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0.001}
-  m_LocalScale: {x: 0.15, y: 0.15, z: 0.15}
-  m_Children: []
-  m_Father: {fileID: 1307042987}
-  m_RootOrder: 11
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1, y: 1}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &593575983
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 593575981}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9541d86e2fd84c1d9990edf0852d74ab, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_text: V
-  m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
-  m_fontColor32:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
-  m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
-  m_tintAllSprites: 0
-  m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
-  m_overrideHtmlColors: 0
-  m_faceColor:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontSize: 13
-  m_fontSizeBase: 13
-  m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
-  m_fontStyle: 0
-  m_HorizontalAlignment: 2
-  m_VerticalAlignment: 512
-  m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_wordSpacing: 0
-  m_lineSpacing: 0
-  m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
-  m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 0
-  m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_linkedTextComponent: {fileID: 0}
-  parentLinkedComponent: {fileID: 0}
-  m_enableKerning: 1
-  m_enableExtraPadding: 0
-  checkPaddingRequired: 0
-  m_isRichText: 1
-  m_parseCtrlCharacters: 1
-  m_isOrthographic: 0
-  m_isCullingEnabled: 0
-  m_horizontalMapping: 0
-  m_verticalMapping: 0
-  m_uvLineOffset: 0
-  m_geometrySortingOrder: 0
-  m_IsTextObjectScaleStatic: 0
-  m_VertexBufferAutoSizeReduction: 0
-  m_useMaxVisibleDescender: 1
-  m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
-  m_isUsingLegacyAnimationComponent: 0
-  m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
-  m_renderer: {fileID: 593575985}
-  m_maskType: 0
-  _SortingLayer: 0
-  _SortingLayerID: 0
-  _SortingOrder: 0
---- !u!222 &593575984
-CanvasRenderer:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 593575981}
-  m_CullTransparentMesh: 0
---- !u!23 &593575985
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 593575981}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!1 &611481486
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 611481487}
-  - component: {fileID: 611481490}
-  - component: {fileID: 611481489}
-  - component: {fileID: 611481488}
-  m_Layer: 0
-  m_Name: FallCharText (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &611481487
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 611481486}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0.010000001}
-  m_LocalScale: {x: 0.15, y: 0.15, z: 0.15}
-  m_Children: []
-  m_Father: {fileID: 1307042987}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1, y: 1}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &611481488
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 611481486}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9541d86e2fd84c1d9990edf0852d74ab, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_text: V
-  m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
-  m_fontColor32:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
-  m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
-  m_tintAllSprites: 0
-  m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
-  m_overrideHtmlColors: 0
-  m_faceColor:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontSize: 13
-  m_fontSizeBase: 13
-  m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
-  m_fontStyle: 0
-  m_HorizontalAlignment: 2
-  m_VerticalAlignment: 512
-  m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_wordSpacing: 0
-  m_lineSpacing: 0
-  m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
-  m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 0
-  m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_linkedTextComponent: {fileID: 0}
-  parentLinkedComponent: {fileID: 0}
-  m_enableKerning: 1
-  m_enableExtraPadding: 0
-  checkPaddingRequired: 0
-  m_isRichText: 1
-  m_parseCtrlCharacters: 1
-  m_isOrthographic: 0
-  m_isCullingEnabled: 0
-  m_horizontalMapping: 0
-  m_verticalMapping: 0
-  m_uvLineOffset: 0
-  m_geometrySortingOrder: 0
-  m_IsTextObjectScaleStatic: 0
-  m_VertexBufferAutoSizeReduction: 0
-  m_useMaxVisibleDescender: 1
-  m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
-  m_isUsingLegacyAnimationComponent: 0
-  m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
-  m_renderer: {fileID: 611481490}
-  m_maskType: 0
-  _SortingLayer: 0
-  _SortingLayerID: 0
-  _SortingOrder: 0
---- !u!222 &611481489
-CanvasRenderer:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 611481486}
-  m_CullTransparentMesh: 0
---- !u!23 &611481490
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 611481486}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!1 &685451744
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 685451745}
-  - component: {fileID: 685451748}
-  - component: {fileID: 685451747}
-  - component: {fileID: 685451746}
-  m_Layer: 0
-  m_Name: FallCharText (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &685451745
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 685451744}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0.009000001}
-  m_LocalScale: {x: 0.15, y: 0.15, z: 0.15}
-  m_Children: []
-  m_Father: {fileID: 1307042987}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1, y: 1}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &685451746
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 685451744}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9541d86e2fd84c1d9990edf0852d74ab, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_text: V
-  m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
-  m_fontColor32:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
-  m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
-  m_tintAllSprites: 0
-  m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
-  m_overrideHtmlColors: 0
-  m_faceColor:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontSize: 13
-  m_fontSizeBase: 13
-  m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
-  m_fontStyle: 0
-  m_HorizontalAlignment: 2
-  m_VerticalAlignment: 512
-  m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_wordSpacing: 0
-  m_lineSpacing: 0
-  m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
-  m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 0
-  m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_linkedTextComponent: {fileID: 0}
-  parentLinkedComponent: {fileID: 0}
-  m_enableKerning: 1
-  m_enableExtraPadding: 0
-  checkPaddingRequired: 0
-  m_isRichText: 1
-  m_parseCtrlCharacters: 1
-  m_isOrthographic: 0
-  m_isCullingEnabled: 0
-  m_horizontalMapping: 0
-  m_verticalMapping: 0
-  m_uvLineOffset: 0
-  m_geometrySortingOrder: 0
-  m_IsTextObjectScaleStatic: 0
-  m_VertexBufferAutoSizeReduction: 0
-  m_useMaxVisibleDescender: 1
-  m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
-  m_isUsingLegacyAnimationComponent: 0
-  m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
-  m_renderer: {fileID: 685451748}
-  m_maskType: 0
-  _SortingLayer: 0
-  _SortingLayerID: 0
-  _SortingOrder: 0
---- !u!222 &685451747
-CanvasRenderer:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 685451744}
-  m_CullTransparentMesh: 0
---- !u!23 &685451748
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 685451744}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -1445,182 +213,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
---- !u!1 &908276796
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 908276797}
-  - component: {fileID: 908276800}
-  - component: {fileID: 908276799}
-  - component: {fileID: 908276798}
-  m_Layer: 0
-  m_Name: FallCharText (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &908276797
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 908276796}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0.0050000004}
-  m_LocalScale: {x: 0.15, y: 0.15, z: 0.15}
-  m_Children: []
-  m_Father: {fileID: 1307042987}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1, y: 1}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &908276798
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 908276796}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9541d86e2fd84c1d9990edf0852d74ab, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_text: V
-  m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
-  m_fontColor32:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
-  m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
-  m_tintAllSprites: 0
-  m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
-  m_overrideHtmlColors: 0
-  m_faceColor:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontSize: 13
-  m_fontSizeBase: 13
-  m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
-  m_fontStyle: 0
-  m_HorizontalAlignment: 2
-  m_VerticalAlignment: 512
-  m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_wordSpacing: 0
-  m_lineSpacing: 0
-  m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
-  m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 0
-  m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_linkedTextComponent: {fileID: 0}
-  parentLinkedComponent: {fileID: 0}
-  m_enableKerning: 1
-  m_enableExtraPadding: 0
-  checkPaddingRequired: 0
-  m_isRichText: 1
-  m_parseCtrlCharacters: 1
-  m_isOrthographic: 0
-  m_isCullingEnabled: 0
-  m_horizontalMapping: 0
-  m_verticalMapping: 0
-  m_uvLineOffset: 0
-  m_geometrySortingOrder: 0
-  m_IsTextObjectScaleStatic: 0
-  m_VertexBufferAutoSizeReduction: 0
-  m_useMaxVisibleDescender: 1
-  m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
-  m_isUsingLegacyAnimationComponent: 0
-  m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
-  m_renderer: {fileID: 908276800}
-  m_maskType: 0
-  _SortingLayer: 0
-  _SortingLayerID: 0
-  _SortingOrder: 0
---- !u!222 &908276799
-CanvasRenderer:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 908276796}
-  m_CullTransparentMesh: 0
---- !u!23 &908276800
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 908276796}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -1704,2546 +296,919 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1053364000
-GameObject:
+--- !u!1001 &6652910180148097790
+PrefabInstance:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1053364004}
-  - component: {fileID: 1053364003}
-  - component: {fileID: 1053364002}
-  - component: {fileID: 1053364001}
-  m_Layer: 0
-  m_Name: Cube
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!65 &1053364001
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1053364000}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!23 &1053364002
-MeshRenderer:
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6652910178476643478, guid: 20a7bf2ef16873c4caf50f2311eea62e,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6652910178476643478, guid: 20a7bf2ef16873c4caf50f2311eea62e,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6652910178476643478, guid: 20a7bf2ef16873c4caf50f2311eea62e,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6652910178476643478, guid: 20a7bf2ef16873c4caf50f2311eea62e,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6652910178476643478, guid: 20a7bf2ef16873c4caf50f2311eea62e,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6652910178476643478, guid: 20a7bf2ef16873c4caf50f2311eea62e,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6652910178476643478, guid: 20a7bf2ef16873c4caf50f2311eea62e,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6652910178476643478, guid: 20a7bf2ef16873c4caf50f2311eea62e,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6652910178476643478, guid: 20a7bf2ef16873c4caf50f2311eea62e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6652910178476643478, guid: 20a7bf2ef16873c4caf50f2311eea62e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6652910178476643478, guid: 20a7bf2ef16873c4caf50f2311eea62e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6652910178476643480, guid: 20a7bf2ef16873c4caf50f2311eea62e,
+        type: 3}
+      propertyPath: m_Name
+      value: FallComments
+      objectReference: {fileID: 0}
+    - target: {fileID: 6652910178476643481, guid: 20a7bf2ef16873c4caf50f2311eea62e,
+        type: 3}
+      propertyPath: Scripts.Array.data[1].source
+      value: "-- \u5168\u4F53\u5236\u5FA1\u7528\u30E2\u30B8\u30E5\u30FC\u30EB\r\n---@class
+        SyncCls @\u30C7\u30FC\u30BF\u540C\u671F\u7528\u30AF\u30E9\u30B9\r\n---@field
+        stackTasks ContorolTaskCls[] @\u5236\u5FA1\u60C5\u5831\u7A4D\u3093\u3067\u3042\u308B[\u500B\u6570]\uFF1A\u30BF\u30B9\u30AF\r\n---@field
+        isNoTaskSkip boolean @\u4E00\u90E8\u7A4D\u307F\u30BF\u30B9\u30AF\u30B9\u30AD\u30C3\u30D7\u6642\u4F7F\u7528\r\n---@field
+        comments string[] @\u672A\u9001\u4FE1\u30B3\u30E1\u30F3\u30C8\u914D\u5217\r\n---@field
+        commentsState number[] @subitem\u6587\u5B57\u72B6\u614B\r\n---@field commentsTime
+        number[] @\u6587\u5B57\u751F\u5B58\u3057\u3066\u3044\u308B\u6642\u9593\r\n---@field
+        commentsChar string[] @\u8868\u793A\u6587\u5B57\r\n---@field ownerName string
+        @\u30AA\u30FC\u30CA\u30FC\u540D\r\nlocal syncCls = {}\r\n\r\nlocal controlModule
+        = {}\r\n\r\nlocal DEFINE = require(\"define_Module\")\r\nlocal fallCommentsControlModule
+        = require(\"fallCommentsControl_Module\")\r\nlocal FALL_COMMENTS_DEFINE =
+        require(\"fallCommentsControlDefine_Module\")\r\nlocal SYNC_TIME = 1\r\nlocal
+        syncTime = os.clock()\r\n\r\n---\u30B9\u30BF\u30B8\u30AA\u306E\u30B3\u30E1\u30F3\u30C8\u3092\u8FFD\u52A0\r\n---@param
+        message string @\u30B3\u30E1\u30F3\u30C8\u5185\u5BB9\r\nlocal function addCommentArrayFromStadio(message)\r\n   
+        syncCls.comments[#syncCls.comments + 1] = message\r\nend\r\n\r\n---\u30EB\u30FC\u30E0\u3067\u306E\u30B3\u30E1\u30F3\u30C8\u3092\u8FFD\u52A0\r\n---@param
+        message string @\u30B3\u30E1\u30F3\u30C8\u5185\u5BB9\r\nlocal function addCommentArrayFromRoom(message)\r\n   
+        syncCls.comments[#syncCls.comments + 1] = message\r\nend\r\n\r\n---\u30B9\u30BF\u30B8\u30AA\u306E\u30B3\u30E1\u30F3\u30C8or\"comment\"\u3067\u9001\u3089\u308C\u305F\u30E1\u30C3\u30BB\u30FC\u30B8\u306B\u53CD\u5FDC\r\n---@param
+        sender any @-\r\n---@param name any @-\r\n---@param message string @\u30B3\u30E1\u30F3\u30C8\u5185\u5BB9\r\nlocal
+        function handleGetCommentMessage(sender, name, message)\r\n    -- \u6240\u6709\u6A29\u3042\u308B\u4EBA\u306E\u307F\r\n   
+        if DEFINE.SYNC_ITEM.IsMine then\r\n        -- \u30B9\u30BF\u30B8\u30AA\u306E\u30B3\u30E1\u30F3\u30C8\r\n       
+        if sender[\"type\"] == \"comment\" then\r\n            print(\"stadio:\"
+        .. message)\r\n            ---\u30B9\u30BF\u30B8\u30AA\u306E\u30B3\u30E1\u30F3\u30C8\u3092\u8FFD\u52A0\r\n           
+        addCommentArrayFromStadio(message)\r\n\r\n        elseif sender[\"type\"]
+        == \"vci\" then\r\n            print(\"room:\" .. message)\r\n           
+        ---\u30EB\u30FC\u30E0\u3067\u306E\u30B3\u30E1\u30F3\u30C8\u3092\u8FFD\u52A0\r\n           
+        addCommentArrayFromRoom(message)\r\n        end\r\n    end\r\nend\r\nvci.message.On(\"comment\",
+        handleGetCommentMessage)\r\n\r\n---\u4F7F\u7528\u30BF\u30B9\u30AF\u524A\u9664\r\n---@param
+        noSkip boolean @\u30B9\u30AD\u30C3\u30D7\u306A\u3057\u6709\u7121\r\n---@param
+        stackTasks ContorolTaskCls @\u30BF\u30B9\u30AF\u4FDD\u6301\u60C5\u5831\r\n---@param
+        taskCount number @\u30BF\u30B9\u30AF\u756A\u53F7\r\n---@return ContorolTaskCls[],number
+        @\u30BF\u30B9\u30AF\u524A\u9664\u5F8C\u60C5\u5831,\u30BF\u30B9\u30AF\u756A\u53F7\r\nlocal
+        function taskDelete(noSkip, stackTasks, taskCount)\r\n    if noSkip then\r\n       
+        stackTasks = table.remove(stackTasks, taskCount)\r\n        taskCount = taskCount
+        - 1\r\n    end\r\n    return stackTasks, taskCount\r\nend\r\n\r\n---\u30BF\u30B9\u30AF\u3092\u7A4D\u3080\r\n---@param
+        sender any @-\r\n---@param name any @-\r\n---@param message ContorolTaskCls
+        @\u64CD\u4F5C\u8FFD\u52A0\u3057\u305F\u3044\u5024\r\nlocal function handleSetAddControl(sender,
+        name, message)\r\n    syncCls.stackTasks[#syncCls.stackTasks + 1] = message\r\nend\r\nvci.message.On(DEFINE.MESSAGEKEY_CONTROL_ADD,
+        handleSetAddControl)\r\n\r\n---\u3053\u3053\u81EA\u4F53\u521D\u671F\u5316\r\nlocal
+        function initialize()\r\n    -- \u30AF\u30E9\u30B9\r\n    syncCls.stackTasks
+        = {}\r\n    syncCls.isNoTaskSkip = true\r\n    syncCls.comments = {}\r\n   
+        -- syncCls.comments[1] = \"\u30B3\u30E1\u30F3\u30C8\u30D6\u30ED\u30C3\u30AF\u304C\u843D\u4E0B\u3057\u3066\u306A\u3044\u3000\u30C7\u30D0\u30C3\u30AF\u4E2D\uFF1F\"\r\n   
+        -- syncCls.comments[2] = \"\u306A\u304C\u3044\u3053\u3081\u3093\u3068\"\"\U0001F9DB\U0001F3FB\"\r\n   
+        -- syncCls.comments[3] = \"\u307F\u3058\u304B\u3044\u3053\u3081\u3093\u3068\"\r\n   
+        syncCls.commentsState = {}\r\n    syncCls.commentsChar = {}\r\n    syncCls.commentsTime
+        = {}\r\n    for i = 1, fallCommentsControlModule.getSubitemCount() do\r\n       
+        syncCls.commentsState[i] = FALL_COMMENTS_DEFINE.NO_STATE\r\n        syncCls.commentsChar[i]
+        = \"\"\r\n        syncCls.commentsTime[i] = 0\r\n    end\r\n    syncCls.ownerName
+        = \"\"\r\n\r\n    -- \u30E2\u30B8\u30E5\u30FC\u30EB\r\n    controlModule.isSynced
+        = false\r\nend\r\n\r\n---\u3053\u3053\u3067\u306E\u5168\u540C\u671F\u30E1\u30C3\u30BB\u30FC\u30B8\r\nlocal
+        function allSyncMessage()\r\n    syncCls.ownerName = vci.studio.GetLocalAvatar().GetName()\r\n   
+        -- \u5897\u6E1B\u3084\u5909\u66F4\u3092\u540C\u671F\r\n    vci.message.EmitWithId(DEFINE.MESSAGEKEY_SYNC_ALL,
+        syncCls, vci.assets.GetInstanceId())\r\nend\r\n\r\n---\u5168\u540C\u671F\r\n---@param
+        sender any @-\r\n---@param name any @-\r\n---@param message SyncCls @\u540C\u671F\u3057\u305F\u3044\u5024\r\nlocal
+        function handleSetCurrentAllData(sender, name, message)\r\n    -- \u540C\u671F\r\n   
+        syncCls = message\r\n\r\n    -- \u540C\u671F\u5B8C\u4E86\u30D5\u30E9\u30B0\r\n   
+        controlModule.isSynced = true\r\nend\r\nvci.message.On(DEFINE.MESSAGEKEY_SYNC_ALL,
+        handleSetCurrentAllData)\r\n\r\n-- \u7A4D\u307E\u308C\u3066\u3044\u308B\u30BF\u30B9\u30AF\u306E\u51E6\u7406\r\nvci.StartCoroutine(coroutine.create(function()\r\n   
+        local taskCount = 1\r\n    local coltineTimer = os.clock()\r\n    local coltineTimerCount
+        = 1 / 85\r\n    while true do\r\n        -- \u540C\u671F\u7528\u6240\u6709\u6A29\u30A2\u30A4\u30C6\u30E0\r\n       
+        if DEFINE.SYNC_ITEM.IsMine then\r\n            -- \u30BF\u30B9\u30AF\u304C\u3042\u308C\u3070\r\n           
+        while #syncCls.stackTasks ~= 0 do\r\n                -- \u30BF\u30B9\u30AF\u9577\u3044\u306E\u3067\u4FDD\u6301\r\n               
+        local task = syncCls.stackTasks[taskCount]\r\n                -- \u30BF\u30B9\u30AF\u30B9\u30AD\u30C3\u30D7\u3042\u308C\u3070\u51E6\u7406\r\n               
+        if task.controlNum == DEFINE.CONTROLKEY_TASK_SKIP then\r\n                   
+        syncCls.isNoTaskSkip = false\r\n                    table.remove(task, taskCount)\r\n                   
+        allSyncMessage()\r\n                    break\r\n                elseif task.controlNum
+        == DEFINE.CONTROLKEY_TASK_SKIP_END then\r\n                    syncCls.isNoTaskSkip
+        = true\r\n                    table.remove(task, taskCount)\r\n                   
+        allSyncMessage()\r\n                    break\r\n                end\r\n\r\n               
+        -- \u30BF\u30B9\u30AF\u30E1\u30A4\u30F3\u51E6\u7406\r\n                if
+        task.controlNum == DEFINE.CONTROLKEY_ENTER_ROOM then\r\n                   
+        syncCls.stackTasks, taskCount = taskDelete(syncCls.isNoTaskSkip, syncCls.stackTasks,
+        taskCount)\r\n                    -- \u30B3\u30E1\u30F3\u30C8\u540C\u671F\u51E6\u7406\r\n                   
+        fallCommentsControlModule.commentSync(syncCls.commentsChar)\r\n                   
+        allSyncMessage()\r\n                    break\r\n                elseif task.controlNum
+        == DEFINE.CONTROLKEY_TIME_SYNC then\r\n                    syncCls.stackTasks,
+        taskCount = taskDelete(syncCls.isNoTaskSkip, syncCls.stackTasks, taskCount)\r\n                   
+        allSyncMessage()\r\n                    break\r\n                elseif task.controlNum
+        == DEFINE.CONTROLKEY_STATE_SYNC then\r\n                    syncCls.stackTasks,
+        taskCount = taskDelete(syncCls.isNoTaskSkip, syncCls.stackTasks, taskCount)\r\n                   
+        allSyncMessage()\r\n                    break\r\n                elseif task.controlNum
+        == DEFINE.CONTROLKEY_GRAB then\r\n                    syncCls.stackTasks,
+        taskCount = taskDelete(syncCls.isNoTaskSkip, syncCls.stackTasks, taskCount)\r\n                   
+        -- \u843D\u4E0B\u4E2D\u306E\u307F\r\n                    if (syncCls.commentsState[task.what]
+        == FALL_COMMENTS_DEFINE.FALL_STATE) and\r\n                        (task.toWhat
+        == FALL_COMMENTS_DEFINE.GRAB_STATE) then\r\n                        syncCls.commentsState[task.what]
+        = task.toWhat\r\n                    elseif (syncCls.commentsState[task.what]
+        == FALL_COMMENTS_DEFINE.GRAB_STATE) and\r\n                        (task.toWhat
+        == FALL_COMMENTS_DEFINE.FALL_STATE) then\r\n                        syncCls.commentsTime[task.what]
+        = task.toWhom\r\n                        syncCls.commentsState[task.what]
+        = task.toWhat\r\n                    end\r\n                    allSyncMessage()\r\n                   
+        break\r\n                elseif task.controlNum == DEFINE.CONTROLKEY_USE
+        then\r\n                    syncCls.stackTasks, taskCount = taskDelete(syncCls.isNoTaskSkip,
+        syncCls.stackTasks, taskCount)\r\n                    -- \u843D\u4E0B\u4E2D\u3001grab\u4E2D\u306E\u307F\r\n                   
+        if ((syncCls.commentsState[task.what] == FALL_COMMENTS_DEFINE.FALL_STATE)
+        or\r\n                        (syncCls.commentsState[task.what] == FALL_COMMENTS_DEFINE.GRAB_STATE))
+        and\r\n                        (task.toWhat == FALL_COMMENTS_DEFINE.FIX_STATE)
+        then\r\n                        syncCls.commentsState[task.what] = task.toWhat\r\n                   
+        elseif (syncCls.commentsState[task.what] == FALL_COMMENTS_DEFINE.FIX_STATE)
+        and\r\n                        (task.toWhat == FALL_COMMENTS_DEFINE.DELETE_STATE)
+        then\r\n                        syncCls.commentsState[task.what] = task.toWhat\r\n                       
+        syncCls.commentsChar[task.what] = \"\"\r\n                    end\r\n                   
+        allSyncMessage()\r\n                    break\r\n                elseif task.controlNum
+        == DEFINE.CONTROLKEY_DELETE then\r\n                    syncCls.stackTasks,
+        taskCount = taskDelete(syncCls.isNoTaskSkip, syncCls.stackTasks, taskCount)\r\n                   
+        -- \u56FA\u5B9A\u4E2D\u306E\u307F\r\n                    if ((syncCls.commentsState[task.what]
+        == FALL_COMMENTS_DEFINE.FALL_STATE) or\r\n                        (syncCls.commentsState[task.what]
+        == FALL_COMMENTS_DEFINE.FIX_STATE) or\r\n                        (syncCls.commentsState[task.what]
+        == FALL_COMMENTS_DEFINE.GRAB_STATE)) then\r\n                        syncCls.commentsState[task.what]
+        = FALL_COMMENTS_DEFINE.DELETE_STATE\r\n                    end\r\n                   
+        allSyncMessage()\r\n                    break\r\n                end\r\n\r\n               
+        -- \u6B21\u30BF\u30B9\u30AF\r\n                taskCount = taskCount + 1\r\n               
+        -- \u30BF\u30A4\u30DF\u30F3\u30B0\u3067\u306E\u540C\u671F\r\n               
+        if #syncCls.stackTasks == 0 or (os.clock() - coltineTimer) > coltineTimerCount
+        then\r\n                    allSyncMessage()\r\n                    coroutine.yield()\r\n                   
+        coltineTimer = os.clock()\r\n                end\r\n            end\r\n       
+        end\r\n\r\n        coroutine.yield()\r\n        coltineTimer = os.clock()\r\n       
+        taskCount = 1\r\n    end\r\nend))\r\n\r\n-- \u901A\u5E38\u51E6\u7406\r\nfunction
+        updateAll()\r\n    -- \u30B3\u30E1\u30F3\u30C8\u5236\u5FA1\u51E6\u7406\r\n   
+        fallCommentsControlModule.commentControl(syncCls.ownerName, syncCls.commentsChar,
+        syncCls.commentsState,\r\n        syncCls.commentsTime)\r\n\r\n    -- \u540C\u671F\u7528\u6240\u6709\u6A29\u30A2\u30A4\u30C6\u30E0\r\n   
+        if DEFINE.SYNC_ITEM.IsMine then\r\n        -- \u30B3\u30E1\u30F3\u30C8\u6709\r\n       
+        if #syncCls.comments > 0 then\r\n            -- \u30B3\u30E1\u30F3\u30C8\u843D\u4E0B\u51FA\u6765\u305F\u3089\u843D\u4E0B\u30B3\u30E1\u30F3\u30C8\u524A\u9664\r\n           
+        local enable = false\r\n            enable, syncCls.commentsChar, syncCls.commentsState,
+        syncCls.commentsTime =\r\n                fallCommentsControlModule.fallComment(syncCls.comments[1],
+        syncCls.commentsChar, syncCls.commentsState,\r\n                    syncCls.commentsTime)\r\n           
+        if enable then\r\n                table.remove(syncCls.comments, 1)\r\n               
+        ---\u540C\u671F\u30E1\u30C3\u30BB\u30FC\u30B8(\u30BF\u30B9\u30AF\u8FFD\u52A0)\r\n               
+        DEFINE.controlAddMessage(0, 0, 0, 0, DEFINE.CONTROLKEY_STATE_SYNC)\r\n           
+        end\r\n        end\r\n\r\n        -- \u6642\u9593\u540C\u671F\r\n       
+        local time = os.clock() - syncTime\r\n        if time >= SYNC_TIME then\r\n           
+        syncTime = os.clock()\r\n            syncCls.commentsTime = fallCommentsControlModule.addTime(syncCls.commentsState,
+        syncCls.commentsTime, time)\r\n            ---\u6642\u9593\u540C\u671F\u30E1\u30C3\u30BB\u30FC\u30B8(\u30BF\u30B9\u30AF\u8FFD\u52A0)\r\n           
+        DEFINE.controlAddMessage(0, 0, 0, 0, DEFINE.CONTROLKEY_TIME_SYNC)\r\n       
+        end\r\n    end\r\nend\r\n\r\nfunction controlModule.onUse(use)\r\n    fallCommentsControlModule.onUse(use,
+        syncCls.commentsState)\r\nend\r\n\r\nfunction controlModule.onUnuse(use)\r\n   
+        fallCommentsControlModule.onUnuse(use, syncCls.commentsState)\r\nend\r\n\r\nfunction
+        controlModule.onTriggerEnter(item, hit)\r\nend\r\n\r\nfunction controlModule.onTriggerExit(item,
+        hit)\r\nend\r\n\r\nfunction controlModule.onCollisionEnter(item, hit)\r\nend\r\n\r\nfunction
+        controlModule.onCollisionExit(item, hit)\r\nend\r\n\r\nfunction controlModule.onGrab(target)\r\n   
+        fallCommentsControlModule.onGrab(target, syncCls.commentsState)\r\nend\r\n\r\nfunction
+        controlModule.onUngrab(target)\r\n    fallCommentsControlModule.onUngrab(target,
+        syncCls.commentsState)\r\nend\r\n\r\ninitialize()\r\n\r\nreturn controlModule\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6652910178476643481, guid: 20a7bf2ef16873c4caf50f2311eea62e,
+        type: 3}
+      propertyPath: Scripts.Array.data[3].source
+      value: "-- \u30B3\u30E1\u30F3\u30C8\u843D\u4E0B\u5168\u4F53\u5236\u5FA1\u7528\u30E2\u30B8\u30E5\u30FC\u30EB\r\n---@class
+        CommentsCls @\u30C7\u30FC\u30BF\u540C\u671F\u7528\u30AF\u30E9\u30B9\r\n---@field
+        subitem Transform[] @\u30B5\u30D6\u30A2\u30A4\u30C6\u30E0\r\n---@field textitem
+        string[] @\u30C6\u30AD\u30B9\u30C8\u30A2\u30A4\u30C6\u30E0\r\n---@field garbTimes
+        number[] @\u63E1\u3063\u305F\u6642\u9593\r\nlocal commentsCls = {}\r\n\r\nlocal
+        fallCommentsControlModule = {}\r\n\r\nlocal DEFINE = require(\"define_Module\")\r\nlocal
+        FALL_COMMENTS_DEFINE = require(\"fallCommentsControlDefine_Module\")\r\n\r\nlocal
+        micItem = vci.assets.GetTransform(\"MicItem\")\r\nlocal isGrab = {}\r\nlocal
+        randDate = {}\r\nlocal timeDate = 0\r\n\r\n---\u7269\u7406\u521D\u671F\u5316\r\n---@param
+        commentNumber number @\u30B3\u30E1\u30F3\u30C8\u756A\u53F7\r\nlocal function
+        resetPysics(commentNumber)\r\n    if commentsCls.subitem[commentNumber].IsMine
+        then\r\n        commentsCls.subitem[commentNumber].AddForce(Vector3.zero)\r\n       
+        commentsCls.subitem[commentNumber].SetVelocity(Vector3.zero)\r\n        commentsCls.subitem[commentNumber].SetAngularVelocity(Vector3.zero)\r\n       
+        commentsCls.subitem[commentNumber].SetLocalScale(Vector3.__new(0.001, 0.001,
+        0.001))\r\n        if commentsCls.subitem[commentNumber].IsAttached then\r\n           
+        commentsCls.subitem[commentNumber].DetachFromAvatar()\r\n            commentsCls.subitem[commentNumber].SetPosition(Vector3.__new(commentNumber,
+        -10000, 0))\r\n        end\r\n    end\r\nend\r\n\r\n---\u30B3\u30E1\u30F3\u30C8\u8868\u793A\r\n---@param
+        commentNumber number @\u30B3\u30E1\u30F3\u30C8\u756A\u53F7\r\n---@param char
+        string @\u30B3\u30E1\u30F3\u30C8\r\nlocal function commentShow(commentNumber,
+        char)\r\n    vci.assets._ALL_SetText(commentsCls.textitem[commentNumber],
+        char)\r\n\r\nend\r\n\r\n---\u30B3\u30E1\u30F3\u30C8\u843D\u4E0B\r\n---@param
+        commentArray string[] @\u30B3\u30E1\u30F3\u30C8\u914D\u5217\r\n---@param
+        useArray number[] @\u4F7F\u7528\u3059\u308B\u914D\u5217\r\n---@param charArray
+        string[] @\u30B3\u30E1\u30F3\u30C8\u8868\u8A18\u914D\u5217\r\n---@param state
+        number[] @\u30B3\u30E1\u30F3\u30C8\u72B6\u614B\u914D\u5217\r\n---@param times
+        number[] @\u30B3\u30E1\u30F3\u30C8\u6642\u9593\u914D\u5217\r\n---@return
+        string[] @\u30B3\u30E1\u30F3\u30C8\u914D\u5217,\u30B3\u30E1\u30F3\u30C8\u72B6\u614B\u914D\u5217,\u30B3\u30E1\u30F3\u30C8\u6642\u9593\u914D\u5217\u66F4\u65B0\r\nlocal
+        function fallComment(stringArray, useArray, charArray, state, times)\r\n   
+        if (os.clock() - timeDate) > 3 then\r\n        local randNumber = math.random(1,
+        #randDate)\r\n        local randZ = randDate[randNumber]\r\n        table.remove(randDate,
+        randNumber)\r\n        if #randDate == 0 then\r\n            for i = 1, #FALL_COMMENTS_DEFINE.RAND_ARRAY
+        do\r\n                randDate[i] = FALL_COMMENTS_DEFINE.RAND_ARRAY[i]\r\n           
+        end\r\n            timeDate = os.clock()\r\n        end\r\n\r\n        randNumber
+        = math.random(1, #FALL_COMMENTS_DEFINE.RAND_ARRAY)\r\n        local randX
+        = FALL_COMMENTS_DEFINE.RAND_ARRAY[randNumber]\r\n\r\n        local defaultPosition
+        = Vector3.__new(0, 2.3, 0) + micItem.GetPosition()\r\n        local defaultRotation
+        = micItem.GetRotation() * Quaternion.Euler(0, 180, 0)\r\n        for i =
+        1, #useArray do\r\n            state[useArray[i]] = FALL_COMMENTS_DEFINE.FALL_STATE\r\n           
+        times[useArray[i]] = 0\r\n            charArray[useArray[i]] = stringArray[i]\r\n           
+        commentShow(useArray[i], stringArray[i])\r\n\r\n            commentsCls.subitem[useArray[i]].SetRotation(defaultRotation)\r\n           
+        resetPysics(useArray[i])\r\n\r\n            commentsCls.subitem[useArray[i]].SetPosition(defaultPosition
+        + defaultRotation *\r\n                                                            
+        Vector3.__new(0.37 * ((i - #useArray / 2 - 0.5) + randX),\r\n                   
+        0.07 * randZ, 0.25 * randZ))\r\n            commentsCls.subitem[useArray[i]].SetLocalScale(Vector3.__new(1.5,
+        1.5, 1.5))\r\n        end\r\n    end\r\n    return charArray, state, times\r\nend\r\n\r\n---\u6587\u5B57\u5217\u5206\u89E3\r\n---@param
+        comment string @1\u884C\u306E\u30B3\u30E1\u30F3\u30C8\r\n---@return string[]
+        @\u30B3\u30E1\u30F3\u30C8\u914D\u5217\r\nlocal function stringToCharArray(comment)\r\n   
+        local str = {}\r\n    -- \u6587\u5B57\u3092\u5206\u5272\r\n    local count
+        = 1\r\n    while count <= string.len(comment) do\r\n        local addCount
+        = 0\r\n        -- 1\u6587\u5B57\u5206\u629C\u304D\u51FA\u3057(\u672C\u4F53)\r\n       
+        local splitComment = string.sub(comment, count, count)\r\n        -- \u6B21\u306E\u6587\u5B57\u3042\u308A\r\n       
+        while (count + addCount + 1) <= string.len(comment) do\r\n            --
+        1\u6587\u5B57\u5206\u629C\u304D\u51FA\u3057\r\n            splitComment =
+        string.sub(comment, count + addCount + 1, count + addCount + 1)\r\n           
+        if FALL_COMMENTS_DEFINE.LOW_SURROGATE_ARRAY[splitComment] then\r\n               
+        addCount = addCount + 1\r\n                splitComment = string.sub(comment,
+        count, count + addCount)\r\n            elseif FALL_COMMENTS_DEFINE.ZWJ_ARRAY[splitComment]
+        then\r\n                addCount = addCount + 2\r\n            elseif FALL_COMMENTS_DEFINE.VARIATION_SELECTOR_ARRAY[splitComment]
+        then\r\n                splitComment = string.sub(comment, count, count +
+        addCount)\r\n                addCount = addCount + 1\r\n                break\r\n           
+        else\r\n                splitComment = string.sub(comment, count, count +
+        addCount)\r\n                break\r\n            end\r\n        end\r\n       
+        if #splitComment > 2 then\r\n            splitComment = \"\\u{26A0}\"\r\n       
+        end\r\n\r\n        -- \u6587\u5B57\u3092\u914D\u5217\u306B\u5165\u529B\r\n       
+        str[#str + 1] = splitComment\r\n        -- \u6B21\u306E\u6587\u5B57\u63A2\u7D22\r\n       
+        count = count + addCount + 1\r\n    end\r\n    return str\r\nend\r\n\r\n---\u30B3\u30E1\u30F3\u30C8\u7A7A\u767D\u691C\u7D22\r\n---@param
+        commentArray string[] @\u30B3\u30E1\u30F3\u30C8\u914D\u5217\r\n---@param
+        state number[] @\u30B3\u30E1\u30F3\u30C8\u72B6\u614B\u914D\u5217\r\n---@return
+        number[] @\u30B3\u30E1\u30F3\u30C8\u3067\u4F7F\u7528\u3059\u308B\u756A\u53F7\u306E\u914D\u5217\r\nlocal
+        function stateVoidCheck(commentArray, state)\r\n    local useArray = {}\r\n   
+        for i = 1, #state do\r\n        if state[i] == FALL_COMMENTS_DEFINE.NO_STATE
+        then\r\n            useArray[#useArray + 1] = i\r\n            -- \u6700\u5927\u6587\u5B57\u6570\u304B\u3001\u30B3\u30E1\u30F3\u30C8\u6570\r\n           
+        if (FALL_COMMENTS_DEFINE.STRING_MAX == #useArray) or (#commentArray == #useArray)
+        then\r\n                return useArray\r\n            end\r\n        end\r\n   
+        end\r\n    return {}\r\nend\r\n\r\n---\u30B3\u30E1\u30F3\u30C8\u6642\u9593\u7D4C\u904E\u306B\u3088\u308B\u524A\u9664\r\n---@param
+        commentNumber number @\u30B3\u30E1\u30F3\u30C8\u756A\u53F7\r\n---@param charArray
+        string[] @\u30B3\u30E1\u30F3\u30C8\u8868\u8A18\u914D\u5217\r\n---@param state
+        number[] @\u30B3\u30E1\u30F3\u30C8\u72B6\u614B\u914D\u5217\r\n---@param times
+        number[] @\u30B3\u30E1\u30F3\u30C8\u6642\u9593\u914D\u5217\r\n---@return
+        string[],number[],number[] @\u30B3\u30E1\u30F3\u30C8\u8868\u8A18\u914D\u5217,\u30B3\u30E1\u30F3\u30C8\u72B6\u614B\u914D\u5217,\u30B3\u30E1\u30F3\u30C8\u6642\u9593\u914D\u5217\u66F4\u65B0\r\nlocal
+        function timeDelete(commentNumber, charArray, state, times)\r\n    if times[commentNumber]
+        >= FALL_COMMENTS_DEFINE.DELETE_TIME then\r\n        charArray[commentNumber]
+        = \"\"\r\n        state[commentNumber] = FALL_COMMENTS_DEFINE.DELETE_STATE\r\n       
+        times[commentNumber] = 0\r\n        commentShow(commentNumber, charArray[commentNumber])\r\n   
+        end\r\n    return charArray, state, times\r\nend\r\n\r\n-- \u88C5\u7740\u7B49\u51E6\u7406\r\n---@param
+        ownerName string @\u30AA\u30FC\u30CA\u30FC\u540D\r\n---@param commentNumber
+        number @\u30B3\u30E1\u30F3\u30C8\u756A\u53F7\r\n---@param state number[]
+        @\u30B3\u30E1\u30F3\u30C8\u72B6\u614B\u914D\u5217\r\n---@return number[]
+        @\u30B3\u30E1\u30F3\u30C8\u72B6\u614B\u914D\u5217\r\nlocal function attachDelete(ownerName,
+        commentNumber, state)\r\n    if not isGrab[commentNumber] then\r\n       
+        -- \u6240\u6709\u6A29\u304C\u3042\u308A\u3001\u524A\u9664\u4E2D\r\n       
+        if commentsCls.subitem[commentNumber].IsMine and (state[commentNumber] ==
+        FALL_COMMENTS_DEFINE.DELETE_STATE) then\r\n            -- \u88C5\u7740\u524D(\u6240\u6709\u6A29\u79FB\u308B\u524D)\u306A\u3089\u3070\r\n           
+        if not commentsCls.subitem[commentNumber].IsAttached then\r\n               
+        resetPysics(commentNumber)\r\n                -- \u8FFD\u5F93\u30DC\u30FC\u30F3\u60C5\u5831(Local)\r\n               
+        local followBone = nil\r\n                local avater = vci.studio.GetAvatars()\r\n               
+        for count = 1, #avater do\r\n                    -- \u30AA\u30FC\u30CA\u30FC\u306E\u30A2\u30D0\u30BF\u30FC\u53D6\u5F97\r\n                   
+        if ownerName == avater[count].GetName() then\r\n                        followBone
+        = avater[count].GetBoneTransform(\"Head\")\r\n                        break\r\n                   
+        end\r\n                end\r\n\r\n                if followBone ~= nil then\r\n                   
+        commentsCls.subitem[commentNumber].SetPosition(followBone.position)\r\n                   
+        commentsCls.subitem[commentNumber].AttachToAvatar()\r\n                end\r\n           
+        else\r\n                resetPysics(commentNumber)\r\n                state[commentNumber]
+        = FALL_COMMENTS_DEFINE.WAIT_STATE\r\n            end\r\n        end\r\n       
+        if commentsCls.subitem[commentNumber].IsMine then\r\n            if (not
+        commentsCls.subitem[commentNumber].IsAttached) and\r\n                (state[commentNumber]
+        == FALL_COMMENTS_DEFINE.WAIT_STATE) then\r\n                state[commentNumber]
+        = FALL_COMMENTS_DEFINE.NO_STATE\r\n            elseif (commentsCls.subitem[commentNumber].IsAttached)
+        then\r\n                resetPysics(commentNumber)\r\n            elseif
+        (state[commentNumber] == FALL_COMMENTS_DEFINE.NO_STATE) then\r\n               
+        resetPysics(commentNumber)\r\n            end\r\n        end\r\n    end\r\n\r\n   
+        return state\r\nend\r\n\r\n---\u3053\u3053\u81EA\u4F53\u521D\u671F\u5316\r\nlocal
+        function initialize()\r\n    commentsCls.subitem = {}\r\n    commentsCls.textitem
+        = {}\r\n    commentsCls.garbTimes = {}\r\n    -- \u30B5\u30D6\u30A2\u30A4\u30C6\u30E0\u60C5\u5831\u8FFD\u52A0\r\n   
+        for i = 1, 1000 do\r\n        local subitem = vci.assets.GetTransform(FALL_COMMENTS_DEFINE.STR_CHAR
+        .. i .. \")\")\r\n        if subitem == nil then\r\n            break\r\n       
+        end\r\n        commentsCls.subitem[i] = subitem\r\n        commentsCls.textitem[i]
+        = FALL_COMMENTS_DEFINE.STR_CHAR_TXT .. i .. \")\"\r\n        commentsCls.garbTimes[i]
+        = 0\r\n        resetPysics(i)\r\n        if commentsCls.subitem[i].IsMine
+        then\r\n            commentsCls.subitem[i].SetPosition(Vector3.__new(i, -100000,
+        1))\r\n            commentsCls.subitem[i].SetLocalScale(Vector3.__new(1.5,
+        1.5, 1.5))\r\n        end\r\n        isGrab[i] = false\r\n    end\r\n\r\n   
+        for i = 1, #FALL_COMMENTS_DEFINE.RAND_ARRAY do\r\n        randDate[i] = FALL_COMMENTS_DEFINE.RAND_ARRAY[i]\r\n   
+        end\r\nend\r\n\r\n---\u30B3\u30E1\u30F3\u30C8\u843D\u4E0B\u51E6\u7406\r\n---@param
+        comment string @1\u884C\u306E\u30B3\u30E1\u30F3\u30C8\r\n---@param charArray
+        string[] @\u30B3\u30E1\u30F3\u30C8\u8868\u8A18\u914D\u5217\r\n---@param state
+        number[] @\u30B3\u30E1\u30F3\u30C8\u72B6\u614B\u914D\u5217\r\n---@param times
+        number[] @\u30B3\u30E1\u30F3\u30C8\u6642\u9593\u914D\u5217\r\n---@return
+        boolean,string[],number[],number[] @\u30B3\u30E1\u30F3\u30C8\u843D\u4E0B\u53EF\u5426,\u30B3\u30E1\u30F3\u30C8\u8868\u8A18\u914D\u5217,\u30B3\u30E1\u30F3\u30C8\u72B6\u614B\u914D\u5217,\u30B3\u30E1\u30F3\u30C8\u6642\u9593\u914D\u5217\u66F4\u65B0\r\nfunction
+        fallCommentsControlModule.fallComment(comment, charArray, state, times)\r\n   
+        local stringArray = stringToCharArray(comment)\r\n    local useArray = stateVoidCheck(stringArray,
+        state)\r\n    -- \u30B3\u30E1\u30F3\u30C8\u6295\u4E0B\u3067\u304D\u308B\u72B6\u614B\u306A\u3089\u3070\r\n   
+        if #useArray > 0 then\r\n        if #stringArray > FALL_COMMENTS_DEFINE.STRING_MAX
+        then\r\n            local data = {}\r\n            for count = #stringArray
+        - FALL_COMMENTS_DEFINE.STRING_MAX, #stringArray do\r\n                data[#data
+        + 1] = stringArray[count]\r\n            end\r\n            stringArray =
+        data\r\n        end\r\n        charArray, state, times = fallComment(stringArray,
+        useArray, charArray, state, times)\r\n        return true, charArray, state,
+        times\r\n    end\r\n    return false, charArray, state, times\r\nend\r\n\r\n--
+        \u30B3\u30E1\u30F3\u30C8\u5236\u5FA1\u51E6\u7406\r\n---@param ownerName string
+        @\u30AA\u30FC\u30CA\u30FC\u540D\r\n---@param charArray string[] @\u30B3\u30E1\u30F3\u30C8\u8868\u8A18\u914D\u5217\r\n---@param
+        state number[] @\u30B3\u30E1\u30F3\u30C8\u72B6\u614B\u914D\u5217\r\n---@param
+        times number[] @\u30B3\u30E1\u30F3\u30C8\u6642\u9593\u914D\u5217\r\nfunction
+        fallCommentsControlModule.commentControl(ownerName, charArray, state, times)\r\n   
+        for count = 1, #state do\r\n        -- \u843D\u4E0B\u5BFE\u8C61\u306A\u3089\u3070\r\n       
+        if state[count] == FALL_COMMENTS_DEFINE.FALL_STATE then\r\n            commentsCls.subitem[count].AddForce(Vector3.__new(0,
+        -0.015, 0), vci.forceMode.Impulse)\r\n            charArray, state, times
+        = timeDelete(count, charArray, state, times)\r\n        elseif state[count]
+        == FALL_COMMENTS_DEFINE.FIX_STATE then\r\n            -- \u63E1\u3063\u3066\u306A\u3044\u3068\u304D\r\n           
+        if not isGrab[count] then\r\n                -- \u30B3\u30E1\u30F3\u30C8\u306E\u7269\u7406\u30EA\u30BB\u30C3\u30C8\r\n               
+        commentsCls.subitem[count].AddForce(Vector3.zero)\r\n                commentsCls.subitem[count].SetVelocity(Vector3.zero)\r\n               
+        commentsCls.subitem[count].SetAngularVelocity(Vector3.zero)\r\n           
+        end\r\n        end\r\n        -- \u88C5\u7740\u7B49\u51E6\u7406\r\n       
+        state = attachDelete(ownerName, count, state)\r\n    end\r\n    return charArray,
+        state, times\r\nend\r\n\r\n-- \u30B3\u30E1\u30F3\u30C8\u6642\u9593\u7D4C\u904E\u51E6\u7406\r\n---@param
+        state number[] @\u30B3\u30E1\u30F3\u30C8\u72B6\u614B\u914D\u5217\r\n---@param
+        times number[] @\u30B3\u30E1\u30F3\u30C8\u6642\u9593\u914D\u5217\r\n---@param
+        addTime number @\u6642\u9593\u7D4C\u904E\r\n---@return number[] @\u30B3\u30E1\u30F3\u30C8\u6642\u9593\u914D\u5217\u66F4\u65B0\r\nfunction
+        fallCommentsControlModule.addTime(state, times, addTime)\r\n    for count
+        = 1, #times do\r\n        -- \u843D\u4E0B\u6642\u306E\u307F\u6642\u9593\u7D4C\u904E\r\n       
+        if state[count] == FALL_COMMENTS_DEFINE.FALL_STATE then\r\n            times[count]
+        = times[count] + addTime\r\n        end\r\n    end\r\n    return times\r\nend\r\n\r\n--
+        \u30B3\u30E1\u30F3\u30C8\u540C\u671F\u51E6\u7406\r\n---@param charArray string[]
+        @\u30B3\u30E1\u30F3\u30C8\u8868\u8A18\u914D\u5217\r\nfunction fallCommentsControlModule.commentSync(charArray)\r\n   
+        for count = 1, #charArray do\r\n        commentShow(count, charArray[count])\r\n   
+        end\r\nend\r\n\r\n-- \u30B5\u30D6\u30A2\u30A4\u30C6\u30E0\u6570\u8FD4\u3059\r\n---@return
+        number @\u30B5\u30D6\u30A2\u30A4\u30C6\u30E0\u6570\r\nfunction fallCommentsControlModule.getSubitemCount()\r\n   
+        return #commentsCls.subitem\r\nend\r\n\r\n-- use\u95A2\u4FC2\r\n---@param
+        target string @\u540D\u79F0\r\n---@param state number[] @\u30B3\u30E1\u30F3\u30C8\u72B6\u614B\u914D\u5217\r\nfunction
+        fallCommentsControlModule.onUse(use, state)\r\n    for count = 1, #commentsCls.subitem
+        do\r\n        if use == commentsCls.subitem[count].GetName() then\r\n           
+        -- \u843D\u4E0B\u4E2D\u306E\u307F\r\n            if ((state[count] == FALL_COMMENTS_DEFINE.FALL_STATE)
+        or (state[count] == FALL_COMMENTS_DEFINE.GRAB_STATE)) then\r\n               
+        ---\u540C\u671F\u30E1\u30C3\u30BB\u30FC\u30B8(\u30BF\u30B9\u30AF\u8FFD\u52A0)\r\n               
+        DEFINE.controlAddMessage(0, 0, count, FALL_COMMENTS_DEFINE.FIX_STATE, DEFINE.CONTROLKEY_USE)\r\n           
+        elseif state[count] == FALL_COMMENTS_DEFINE.FIX_STATE then\r\n               
+        ---\u540C\u671F\u30E1\u30C3\u30BB\u30FC\u30B8(\u30BF\u30B9\u30AF\u8FFD\u52A0)\r\n               
+        DEFINE.controlAddMessage(0, 0, count, FALL_COMMENTS_DEFINE.DELETE_STATE,
+        DEFINE.CONTROLKEY_USE)\r\n            end\r\n            commentsCls.garbTimes[count]
+        = os.clock()\r\n            break\r\n        end\r\n    end\r\nend\r\n\r\n--
+        unuse\u95A2\u4FC2\r\n---@param target string @\u540D\u79F0\r\n---@param state
+        number[] @\u30B3\u30E1\u30F3\u30C8\u72B6\u614B\u914D\u5217\r\nfunction fallCommentsControlModule.onUnuse(use,
+        state)\r\n    for count = 1, #commentsCls.subitem do\r\n        if use ==
+        commentsCls.subitem[count].GetName() then\r\n            -- \u524A\u9664\u958B\u59CB\u6642\u9593\u3060\u3063\u305F\u3089\u3070\r\n           
+        if (os.clock() - commentsCls.garbTimes[count]) >= FALL_COMMENTS_DEFINE.DELETE_USE_TIME
+        then\r\n                -- \u843D\u4E0B\u4E2D,\u56FA\u5B9A\u4E2D\u306E\u307F\r\n               
+        if (state[count] == FALL_COMMENTS_DEFINE.FALL_STATE) or (state[count] ==
+        FALL_COMMENTS_DEFINE.FIX_STATE) or\r\n                    (state[count] ==
+        FALL_COMMENTS_DEFINE.GRAB_STATE) then ---\u540C\u671F\u30E1\u30C3\u30BB\u30FC\u30B8(\u30BF\u30B9\u30AF\u8FFD\u52A0)\r\n                   
+        DEFINE.controlAddMessage(0, 0, count, 0, DEFINE.CONTROLKEY_DELETE)\r\n               
+        end\r\n            end\r\n            break\r\n        end\r\n    end\r\nend\r\n\r\n--
+        grab\u95A2\u4FC2\r\n---@param target string @\u540D\u79F0\r\n---@param state
+        number[] @\u30B3\u30E1\u30F3\u30C8\u72B6\u614B\u914D\u5217\r\nfunction fallCommentsControlModule.onGrab(item,
+        state)\r\n    for count = 1, #commentsCls.subitem do\r\n        if item ==
+        commentsCls.subitem[count].GetName() then\r\n            -- \u843D\u4E0B\u4E2D\u306E\u307F\r\n           
+        if state[count] == FALL_COMMENTS_DEFINE.FALL_STATE then\r\n               
+        ---\u540C\u671F\u30E1\u30C3\u30BB\u30FC\u30B8(\u30BF\u30B9\u30AF\u8FFD\u52A0)\r\n               
+        DEFINE.controlAddMessage(0, 0, count, FALL_COMMENTS_DEFINE.GRAB_STATE, DEFINE.CONTROLKEY_GRAB)\r\n           
+        end\r\n            isGrab[count] = true\r\n            break\r\n        end\r\n   
+        end\r\nend\r\n\r\n-- ungrab\u95A2\u4FC2\r\n---@param target string @\u540D\u79F0\r\n---@param
+        state number[] @\u30B3\u30E1\u30F3\u30C8\u72B6\u614B\u914D\u5217\r\nfunction
+        fallCommentsControlModule.onUngrab(target, state)\r\n    for count = 1, #commentsCls.subitem
+        do\r\n        if target == commentsCls.subitem[count].GetName() then\r\n           
+        -- \u843D\u4E0B\u4E2D\u306E\u307F\r\n            if state[count] == FALL_COMMENTS_DEFINE.GRAB_STATE
+        then\r\n                ---\u540C\u671F\u30E1\u30C3\u30BB\u30FC\u30B8(\u30BF\u30B9\u30AF\u8FFD\u52A0)\r\n               
+        DEFINE.controlAddMessage(0, FALL_COMMENTS_DEFINE.DELETE_TIME - FALL_COMMENTS_DEFINE.DELETE_GRAB_TIME,\r\n                   
+        count, FALL_COMMENTS_DEFINE.FALL_STATE, DEFINE.CONTROLKEY_GRAB)\r\n           
+        end\r\n            isGrab[count] = false\r\n            break\r\n       
+        end\r\n    end\r\nend\r\n\r\ninitialize()\r\n\r\nreturn fallCommentsControlModule\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6652910178476643481, guid: 20a7bf2ef16873c4caf50f2311eea62e,
+        type: 3}
+      propertyPath: Scripts.Array.data[4].source
+      value: "-- \u30B3\u30E1\u30F3\u30C8\u843D\u4E0B\u5171\u901A\u90E8\u7528\u30E2\u30B8\u30E5\u30FC\u30EB\r\n---\u5171\u901A\u4F7F\u7528\u90E8\u5206\u5B9A\u7FA9\r\nlocal
+        _defineModule = {\r\n    ---\u6587\u5B57\u672C\u4F53\r\n    STR_CHAR = \"FallChar
+        (\",\r\n    ---\u6587\u5B57\u672C\u4F53\u306E\u30C6\u30AD\u30B9\u30C8\r\n   
+        STR_CHAR_TXT = \"FallCharText (\",\r\n    ---1\u30B3\u30E1\u30F3\u30C8\u6587\u5B57\u3042\u305F\u308A\u306E\u6587\u5B57\u6700\u5927\u6570\r\n   
+        STRING_MAX = 16,\r\n    ---\u30B3\u30E1\u30F3\u30C8\u524A\u9664\u307E\u3067\u306E\u6642\u9593\r\n   
+        DELETE_TIME = 13,\r\n    ---\u63E1\u3063\u305F\u5834\u5408\u306E\u30B3\u30E1\u30F3\u30C8\u524A\u9664\u307E\u3067\u306E\u6642\u9593\u5F37\u5236\u5909\u66F4\r\n   
+        DELETE_GRAB_TIME = 5,\r\n    ---Use\u9577\u62BC\u3057\u306E\u5834\u5408\u306E\u30B3\u30E1\u30F3\u30C8\u524A\u9664\u6642\u9593\r\n   
+        DELETE_USE_TIME = 2.5,\r\n    -- \u30B3\u30E1\u30F3\u30C8\u72B6\u614B\u9077\u79FB\r\n   
+        NO_STATE = 0,\r\n    FALL_STATE = 1,\r\n    GRAB_STATE = 2,\r\n    FIX_STATE
+        = 3,\r\n    DELETE_STATE = 4,\r\n    WAIT_STATE = 5,\r\n    -- \u30BC\u30ED\u5E45\u30B8\u30E7\u30A4\u30CA\u30FC\u5C02\u7528\u914D\u5217\r\n   
+        ZWJ_ARRAY = {},\r\n    -- \u30CF\u30A4\u30B5\u30ED\u30B2\u30FC\u30C8\u5C02\u7528\u914D\u5217\r\n   
+        HIGH_SURROGATE_ARRAY = {},\r\n    -- \u30ED\u30FC\u30B5\u30ED\u30B2\u30FC\u30C8\u5C02\u7528\u914D\u5217\r\n   
+        LOW_SURROGATE_ARRAY = {},\r\n    -- \u7570\u4F53\u5B57\u30BB\u30EC\u30AF\u30BF\u5C02\u7528\u914D\u5217\r\n   
+        VARIATION_SELECTOR_ARRAY = {},\r\n    -- \u30E9\u30F3\u30C0\u30E0\u4F4D\u7F6E\u914D\u5217\r\n   
+        RAND_ARRAY = {}\r\n}\r\n\r\n---\u3053\u3053\u81EA\u4F53\u521D\u671F\u5316\r\nlocal
+        function initialize()\r\n    -- \u30BC\u30ED\u5E45\u30B8\u30E7\u30A4\u30CA\u30FC200D\uFF5E200D\r\n   
+        for i = (16 ^ 3) * 2 + (16 ^ 2) * 0 + (16 ^ 1) * 0 + (16 ^ 0) * 13, (16 ^
+        3) * 2 + (16 ^ 2) * 0 + (16 ^ 1) * 0 +\r\n        (16 ^ 0) * 13 do\r\n       
+        _defineModule.ZWJ_ARRAY[string.char(i)] = true\r\n    end\r\n    -- \u30CF\u30A4\u30B5\u30ED\u30B2\u30FC\u30C8\u30DA\u30A2D800\uFF5EDBFF\r\n   
+        for i = (16 ^ 3) * 13 + (16 ^ 2) * 8 + (16 ^ 1) * 0 + (16 ^ 0) * 0, (16 ^
+        3) * 13 + (16 ^ 2) * 11 + (16 ^ 1) * 15 +\r\n        (16 ^ 0) * 15 do\r\n       
+        _defineModule.HIGH_SURROGATE_ARRAY[string.char(i)] = true\r\n    end\r\n   
+        -- \u30ED\u30FC\u30B5\u30ED\u30B2\u30FC\u30C8\u30DA\u30A2DC00\uFF5EDFFF\r\n   
+        for i = (16 ^ 3) * 13 + (16 ^ 2) * 12 + (16 ^ 1) * 0 + (16 ^ 0) * 0, (16
+        ^ 3) * 13 + (16 ^ 2) * 15 + (16 ^ 1) * 15 +\r\n        (16 ^ 0) * 15 do\r\n       
+        _defineModule.LOW_SURROGATE_ARRAY[string.char(i)] = true\r\n    end\r\n   
+        --------------\u7B26\u53F7\u4F4D\u7F6E--------------\r\n    -- \u7570\u4F53\u5B57\u30BB\u30EC\u30AF\u30BF180B\uFF5E180D\r\n   
+        for i = (16 ^ 3) * 1 + (16 ^ 2) * 8 + (16 ^ 1) * 0 + (16 ^ 0) * 11, (16 ^
+        3) * 1 + (16 ^ 2) * 8 + (16 ^ 1) * 0 +\r\n        (16 ^ 0) * 13 do\r\n       
+        _defineModule.VARIATION_SELECTOR_ARRAY[string.char(i)] = true\r\n    end\r\n   
+        -- \u7570\u4F53\u5B57\u30BB\u30EC\u30AF\u30BFFE00\uFF5EFE0F\r\n    for i
+        = (16 ^ 3) * 15 + (16 ^ 2) * 14 + (16 ^ 1) * 0 + (16 ^ 0) * 0, (16 ^ 3) *
+        15 + (16 ^ 2) * 14 + (16 ^ 1) * 0 +\r\n        (16 ^ 0) * 15 do\r\n       
+        _defineModule.VARIATION_SELECTOR_ARRAY[string.char(i)] = true\r\n    end\r\n   
+        -- \u7570\u4F53\u5B57\u30BB\u30EC\u30AF\u30BFE0100\uFF5EE01FE\r\n    for
+        i = (16 ^ 4) * 14 + (16 ^ 3) * 0 + (16 ^ 2) * 1 + (16 ^ 1) * 0 + (16 ^ 0)
+        * 0, (16 ^ 4) * 14 + (16 ^ 3) * 0 +\r\n        (16 ^ 2) * 1 + (16 ^ 1) *
+        15 + (16 ^ 0) * 14 do\r\n        _defineModule.VARIATION_SELECTOR_ARRAY[string.char(i)]
+        = true\r\n    end\r\n    --------------\u7B26\u53F7\u4F4D\u7F6E--------------\r\n   
+        local randMax = 7\r\n    for i = 1, randMax do\r\n        _defineModule.RAND_ARRAY[i]
+        = i - (randMax) / 2 - 0.5\r\n    end\r\nend\r\n\r\ninitialize()\r\n\r\nreturn
+        _defineModule\r\n"
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 20a7bf2ef16873c4caf50f2311eea62e, type: 3}
+--- !u!1001 &6918137238491207221
+PrefabInstance:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1053364000}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!33 &1053364003
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1053364000}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!4 &1053364004
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1053364000}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.5, y: 1.5, z: 0.2}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1060509955
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1060509956}
-  - component: {fileID: 1060509959}
-  - component: {fileID: 1060509958}
-  - component: {fileID: 1060509957}
-  m_Layer: 0
-  m_Name: FallCharText (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1060509956
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1060509955}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0.004}
-  m_LocalScale: {x: 0.15, y: 0.15, z: 0.15}
-  m_Children: []
-  m_Father: {fileID: 1307042987}
-  m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1, y: 1}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1060509957
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1060509955}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9541d86e2fd84c1d9990edf0852d74ab, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_text: V
-  m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
-  m_fontColor32:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
-  m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
-  m_tintAllSprites: 0
-  m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
-  m_overrideHtmlColors: 0
-  m_faceColor:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontSize: 13
-  m_fontSizeBase: 13
-  m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
-  m_fontStyle: 0
-  m_HorizontalAlignment: 2
-  m_VerticalAlignment: 512
-  m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_wordSpacing: 0
-  m_lineSpacing: 0
-  m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
-  m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 0
-  m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_linkedTextComponent: {fileID: 0}
-  parentLinkedComponent: {fileID: 0}
-  m_enableKerning: 1
-  m_enableExtraPadding: 0
-  checkPaddingRequired: 0
-  m_isRichText: 1
-  m_parseCtrlCharacters: 1
-  m_isOrthographic: 0
-  m_isCullingEnabled: 0
-  m_horizontalMapping: 0
-  m_verticalMapping: 0
-  m_uvLineOffset: 0
-  m_geometrySortingOrder: 0
-  m_IsTextObjectScaleStatic: 0
-  m_VertexBufferAutoSizeReduction: 0
-  m_useMaxVisibleDescender: 1
-  m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
-  m_isUsingLegacyAnimationComponent: 0
-  m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
-  m_renderer: {fileID: 1060509959}
-  m_maskType: 0
-  _SortingLayer: 0
-  _SortingLayerID: 0
-  _SortingOrder: 0
---- !u!222 &1060509958
-CanvasRenderer:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1060509955}
-  m_CullTransparentMesh: 0
---- !u!23 &1060509959
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1060509955}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!1 &1307042986
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1307042987}
-  - component: {fileID: 1307042990}
-  - component: {fileID: 1307042989}
-  - component: {fileID: 1307042988}
-  m_Layer: 0
-  m_Name: FallChar (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1307042987
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1307042986}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
-  m_Children:
-  - {fileID: 611481487}
-  - {fileID: 685451745}
-  - {fileID: 1833362437}
-  - {fileID: 1841223538}
-  - {fileID: 2119552462}
-  - {fileID: 908276797}
-  - {fileID: 1060509956}
-  - {fileID: 1635269087}
-  - {fileID: 38661261}
-  - {fileID: 1990334269}
-  - {fileID: 138062072}
-  - {fileID: 593575982}
-  - {fileID: 1934947972}
-  - {fileID: 1609397262}
-  - {fileID: 1440141197}
-  - {fileID: 1531936313}
-  - {fileID: 2142018083}
-  - {fileID: 1970585072}
-  - {fileID: 1581014747}
-  - {fileID: 489524944}
-  - {fileID: 463145536}
-  m_Father: {fileID: 1826678376}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &1307042988
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1307042986}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.15, y: 0.15, z: 0.02}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &1307042989
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1307042986}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!114 &1307042990
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1307042986}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ed42f86ebdb20ba4597c4e753b47ee4c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Grabbable: 1
-  Scalable: 1
-  UniformScaling: 0
-  Attractable: 1
-  GroupId: 0
-  NodeIndex: 0
---- !u!1 &1440141196
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1440141197}
-  - component: {fileID: 1440141200}
-  - component: {fileID: 1440141199}
-  - component: {fileID: 1440141198}
-  m_Layer: 0
-  m_Name: FallCharText (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1440141197
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1440141196}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0.004}
-  m_LocalScale: {x: 0.15, y: 0.15, z: 0.15}
-  m_Children: []
-  m_Father: {fileID: 1307042987}
-  m_RootOrder: 14
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1, y: 1}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1440141198
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1440141196}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9541d86e2fd84c1d9990edf0852d74ab, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_text: V
-  m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
-  m_fontColor32:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
-  m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
-  m_tintAllSprites: 0
-  m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
-  m_overrideHtmlColors: 0
-  m_faceColor:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontSize: 13
-  m_fontSizeBase: 13
-  m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
-  m_fontStyle: 0
-  m_HorizontalAlignment: 2
-  m_VerticalAlignment: 512
-  m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_wordSpacing: 0
-  m_lineSpacing: 0
-  m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
-  m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 0
-  m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_linkedTextComponent: {fileID: 0}
-  parentLinkedComponent: {fileID: 0}
-  m_enableKerning: 1
-  m_enableExtraPadding: 0
-  checkPaddingRequired: 0
-  m_isRichText: 1
-  m_parseCtrlCharacters: 1
-  m_isOrthographic: 0
-  m_isCullingEnabled: 0
-  m_horizontalMapping: 0
-  m_verticalMapping: 0
-  m_uvLineOffset: 0
-  m_geometrySortingOrder: 0
-  m_IsTextObjectScaleStatic: 0
-  m_VertexBufferAutoSizeReduction: 0
-  m_useMaxVisibleDescender: 1
-  m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
-  m_isUsingLegacyAnimationComponent: 0
-  m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
-  m_renderer: {fileID: 1440141200}
-  m_maskType: 0
-  _SortingLayer: 0
-  _SortingLayerID: 0
-  _SortingOrder: 0
---- !u!222 &1440141199
-CanvasRenderer:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1440141196}
-  m_CullTransparentMesh: 0
---- !u!23 &1440141200
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1440141196}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!1 &1531936312
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1531936313}
-  - component: {fileID: 1531936316}
-  - component: {fileID: 1531936315}
-  - component: {fileID: 1531936314}
-  m_Layer: 0
-  m_Name: FallCharText (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1531936313
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1531936312}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0.0050000004}
-  m_LocalScale: {x: 0.15, y: 0.15, z: 0.15}
-  m_Children: []
-  m_Father: {fileID: 1307042987}
-  m_RootOrder: 15
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1, y: 1}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1531936314
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1531936312}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9541d86e2fd84c1d9990edf0852d74ab, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_text: V
-  m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
-  m_fontColor32:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
-  m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
-  m_tintAllSprites: 0
-  m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
-  m_overrideHtmlColors: 0
-  m_faceColor:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontSize: 13
-  m_fontSizeBase: 13
-  m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
-  m_fontStyle: 0
-  m_HorizontalAlignment: 2
-  m_VerticalAlignment: 512
-  m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_wordSpacing: 0
-  m_lineSpacing: 0
-  m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
-  m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 0
-  m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_linkedTextComponent: {fileID: 0}
-  parentLinkedComponent: {fileID: 0}
-  m_enableKerning: 1
-  m_enableExtraPadding: 0
-  checkPaddingRequired: 0
-  m_isRichText: 1
-  m_parseCtrlCharacters: 1
-  m_isOrthographic: 0
-  m_isCullingEnabled: 0
-  m_horizontalMapping: 0
-  m_verticalMapping: 0
-  m_uvLineOffset: 0
-  m_geometrySortingOrder: 0
-  m_IsTextObjectScaleStatic: 0
-  m_VertexBufferAutoSizeReduction: 0
-  m_useMaxVisibleDescender: 1
-  m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
-  m_isUsingLegacyAnimationComponent: 0
-  m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
-  m_renderer: {fileID: 1531936316}
-  m_maskType: 0
-  _SortingLayer: 0
-  _SortingLayerID: 0
-  _SortingOrder: 0
---- !u!222 &1531936315
-CanvasRenderer:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1531936312}
-  m_CullTransparentMesh: 0
---- !u!23 &1531936316
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1531936312}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!1 &1581014746
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1581014747}
-  - component: {fileID: 1581014750}
-  - component: {fileID: 1581014749}
-  - component: {fileID: 1581014748}
-  m_Layer: 0
-  m_Name: FallCharText (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1581014747
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1581014746}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0.008}
-  m_LocalScale: {x: 0.15, y: 0.15, z: 0.15}
-  m_Children: []
-  m_Father: {fileID: 1307042987}
-  m_RootOrder: 18
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1, y: 1}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1581014748
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1581014746}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9541d86e2fd84c1d9990edf0852d74ab, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_text: V
-  m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
-  m_fontColor32:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
-  m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
-  m_tintAllSprites: 0
-  m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
-  m_overrideHtmlColors: 0
-  m_faceColor:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontSize: 13
-  m_fontSizeBase: 13
-  m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
-  m_fontStyle: 0
-  m_HorizontalAlignment: 2
-  m_VerticalAlignment: 512
-  m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_wordSpacing: 0
-  m_lineSpacing: 0
-  m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
-  m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 0
-  m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_linkedTextComponent: {fileID: 0}
-  parentLinkedComponent: {fileID: 0}
-  m_enableKerning: 1
-  m_enableExtraPadding: 0
-  checkPaddingRequired: 0
-  m_isRichText: 1
-  m_parseCtrlCharacters: 1
-  m_isOrthographic: 0
-  m_isCullingEnabled: 0
-  m_horizontalMapping: 0
-  m_verticalMapping: 0
-  m_uvLineOffset: 0
-  m_geometrySortingOrder: 0
-  m_IsTextObjectScaleStatic: 0
-  m_VertexBufferAutoSizeReduction: 0
-  m_useMaxVisibleDescender: 1
-  m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
-  m_isUsingLegacyAnimationComponent: 0
-  m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
-  m_renderer: {fileID: 1581014750}
-  m_maskType: 0
-  _SortingLayer: 0
-  _SortingLayerID: 0
-  _SortingOrder: 0
---- !u!222 &1581014749
-CanvasRenderer:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1581014746}
-  m_CullTransparentMesh: 0
---- !u!23 &1581014750
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1581014746}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!1 &1609397261
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1609397262}
-  - component: {fileID: 1609397265}
-  - component: {fileID: 1609397264}
-  - component: {fileID: 1609397263}
-  m_Layer: 0
-  m_Name: FallCharText (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1609397262
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1609397261}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0.003}
-  m_LocalScale: {x: 0.15, y: 0.15, z: 0.15}
-  m_Children: []
-  m_Father: {fileID: 1307042987}
-  m_RootOrder: 13
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1, y: 1}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1609397263
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1609397261}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9541d86e2fd84c1d9990edf0852d74ab, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_text: V
-  m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
-  m_fontColor32:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
-  m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
-  m_tintAllSprites: 0
-  m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
-  m_overrideHtmlColors: 0
-  m_faceColor:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontSize: 13
-  m_fontSizeBase: 13
-  m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
-  m_fontStyle: 0
-  m_HorizontalAlignment: 2
-  m_VerticalAlignment: 512
-  m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_wordSpacing: 0
-  m_lineSpacing: 0
-  m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
-  m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 0
-  m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_linkedTextComponent: {fileID: 0}
-  parentLinkedComponent: {fileID: 0}
-  m_enableKerning: 1
-  m_enableExtraPadding: 0
-  checkPaddingRequired: 0
-  m_isRichText: 1
-  m_parseCtrlCharacters: 1
-  m_isOrthographic: 0
-  m_isCullingEnabled: 0
-  m_horizontalMapping: 0
-  m_verticalMapping: 0
-  m_uvLineOffset: 0
-  m_geometrySortingOrder: 0
-  m_IsTextObjectScaleStatic: 0
-  m_VertexBufferAutoSizeReduction: 0
-  m_useMaxVisibleDescender: 1
-  m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
-  m_isUsingLegacyAnimationComponent: 0
-  m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
-  m_renderer: {fileID: 1609397265}
-  m_maskType: 0
-  _SortingLayer: 0
-  _SortingLayerID: 0
-  _SortingOrder: 0
---- !u!222 &1609397264
-CanvasRenderer:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1609397261}
-  m_CullTransparentMesh: 0
---- !u!23 &1609397265
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1609397261}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!1 &1635269086
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1635269087}
-  - component: {fileID: 1635269090}
-  - component: {fileID: 1635269089}
-  - component: {fileID: 1635269088}
-  m_Layer: 0
-  m_Name: FallCharText (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1635269087
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1635269086}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0.003}
-  m_LocalScale: {x: 0.15, y: 0.15, z: 0.15}
-  m_Children: []
-  m_Father: {fileID: 1307042987}
-  m_RootOrder: 7
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1, y: 1}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1635269088
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1635269086}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9541d86e2fd84c1d9990edf0852d74ab, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_text: V
-  m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
-  m_fontColor32:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
-  m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
-  m_tintAllSprites: 0
-  m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
-  m_overrideHtmlColors: 0
-  m_faceColor:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontSize: 13
-  m_fontSizeBase: 13
-  m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
-  m_fontStyle: 0
-  m_HorizontalAlignment: 2
-  m_VerticalAlignment: 512
-  m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_wordSpacing: 0
-  m_lineSpacing: 0
-  m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
-  m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 0
-  m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_linkedTextComponent: {fileID: 0}
-  parentLinkedComponent: {fileID: 0}
-  m_enableKerning: 1
-  m_enableExtraPadding: 0
-  checkPaddingRequired: 0
-  m_isRichText: 1
-  m_parseCtrlCharacters: 1
-  m_isOrthographic: 0
-  m_isCullingEnabled: 0
-  m_horizontalMapping: 0
-  m_verticalMapping: 0
-  m_uvLineOffset: 0
-  m_geometrySortingOrder: 0
-  m_IsTextObjectScaleStatic: 0
-  m_VertexBufferAutoSizeReduction: 0
-  m_useMaxVisibleDescender: 1
-  m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
-  m_isUsingLegacyAnimationComponent: 0
-  m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
-  m_renderer: {fileID: 1635269090}
-  m_maskType: 0
-  _SortingLayer: 0
-  _SortingLayerID: 0
-  _SortingOrder: 0
---- !u!222 &1635269089
-CanvasRenderer:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1635269086}
-  m_CullTransparentMesh: 0
---- !u!23 &1635269090
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1635269086}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!1 &1826678374
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1826678376}
-  - component: {fileID: 1826678375}
-  m_Layer: 0
-  m_Name: GameObject
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1826678375
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1826678374}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 66b0828df2674da449a4ede7b8596dd5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Meta:
-    title: FallComments
-    author: 1
-    contactInformation: 1
-    reference: 1
-    thumbnail: {fileID: 0}
-    version: 1
-    description: 
-    exporterVersion: 0.33
-    specVersion: 
-    modelDataLicenseType: 0
-    modelDataOtherLicenseUrl: 
-    scriptLicenseType: 0
-    scriptOtherLicenseUrl: 
-    scriptWriteProtected: 0
-    scriptEnableDebugging: 1
-  Scripts: []
---- !u!4 &1826678376
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1826678374}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1307042987}
-  m_Father: {fileID: 0}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1833362436
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1833362437}
-  - component: {fileID: 1833362440}
-  - component: {fileID: 1833362439}
-  - component: {fileID: 1833362438}
-  m_Layer: 0
-  m_Name: FallCharText (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1833362437
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1833362436}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0.008}
-  m_LocalScale: {x: 0.15, y: 0.15, z: 0.15}
-  m_Children: []
-  m_Father: {fileID: 1307042987}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1, y: 1}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1833362438
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1833362436}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9541d86e2fd84c1d9990edf0852d74ab, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_text: V
-  m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
-  m_fontColor32:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
-  m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
-  m_tintAllSprites: 0
-  m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
-  m_overrideHtmlColors: 0
-  m_faceColor:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontSize: 13
-  m_fontSizeBase: 13
-  m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
-  m_fontStyle: 0
-  m_HorizontalAlignment: 2
-  m_VerticalAlignment: 512
-  m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_wordSpacing: 0
-  m_lineSpacing: 0
-  m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
-  m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 0
-  m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_linkedTextComponent: {fileID: 0}
-  parentLinkedComponent: {fileID: 0}
-  m_enableKerning: 1
-  m_enableExtraPadding: 0
-  checkPaddingRequired: 0
-  m_isRichText: 1
-  m_parseCtrlCharacters: 1
-  m_isOrthographic: 0
-  m_isCullingEnabled: 0
-  m_horizontalMapping: 0
-  m_verticalMapping: 0
-  m_uvLineOffset: 0
-  m_geometrySortingOrder: 0
-  m_IsTextObjectScaleStatic: 0
-  m_VertexBufferAutoSizeReduction: 0
-  m_useMaxVisibleDescender: 1
-  m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
-  m_isUsingLegacyAnimationComponent: 0
-  m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
-  m_renderer: {fileID: 1833362440}
-  m_maskType: 0
-  _SortingLayer: 0
-  _SortingLayerID: 0
-  _SortingOrder: 0
---- !u!222 &1833362439
-CanvasRenderer:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1833362436}
-  m_CullTransparentMesh: 0
---- !u!23 &1833362440
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1833362436}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!1 &1841223537
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1841223538}
-  - component: {fileID: 1841223541}
-  - component: {fileID: 1841223540}
-  - component: {fileID: 1841223539}
-  m_Layer: 0
-  m_Name: FallCharText (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1841223538
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1841223537}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0.007}
-  m_LocalScale: {x: 0.15, y: 0.15, z: 0.15}
-  m_Children: []
-  m_Father: {fileID: 1307042987}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1, y: 1}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1841223539
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1841223537}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9541d86e2fd84c1d9990edf0852d74ab, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_text: V
-  m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
-  m_fontColor32:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
-  m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
-  m_tintAllSprites: 0
-  m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
-  m_overrideHtmlColors: 0
-  m_faceColor:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontSize: 13
-  m_fontSizeBase: 13
-  m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
-  m_fontStyle: 0
-  m_HorizontalAlignment: 2
-  m_VerticalAlignment: 512
-  m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_wordSpacing: 0
-  m_lineSpacing: 0
-  m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
-  m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 0
-  m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_linkedTextComponent: {fileID: 0}
-  parentLinkedComponent: {fileID: 0}
-  m_enableKerning: 1
-  m_enableExtraPadding: 0
-  checkPaddingRequired: 0
-  m_isRichText: 1
-  m_parseCtrlCharacters: 1
-  m_isOrthographic: 0
-  m_isCullingEnabled: 0
-  m_horizontalMapping: 0
-  m_verticalMapping: 0
-  m_uvLineOffset: 0
-  m_geometrySortingOrder: 0
-  m_IsTextObjectScaleStatic: 0
-  m_VertexBufferAutoSizeReduction: 0
-  m_useMaxVisibleDescender: 1
-  m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
-  m_isUsingLegacyAnimationComponent: 0
-  m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
-  m_renderer: {fileID: 1841223541}
-  m_maskType: 0
-  _SortingLayer: 0
-  _SortingLayerID: 0
-  _SortingOrder: 0
---- !u!222 &1841223540
-CanvasRenderer:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1841223537}
-  m_CullTransparentMesh: 0
---- !u!23 &1841223541
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1841223537}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!1 &1934947971
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1934947972}
-  - component: {fileID: 1934947975}
-  - component: {fileID: 1934947974}
-  - component: {fileID: 1934947973}
-  m_Layer: 0
-  m_Name: FallCharText (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1934947972
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1934947971}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0.002}
-  m_LocalScale: {x: 0.15, y: 0.15, z: 0.15}
-  m_Children: []
-  m_Father: {fileID: 1307042987}
-  m_RootOrder: 12
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1, y: 1}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1934947973
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1934947971}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9541d86e2fd84c1d9990edf0852d74ab, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_text: V
-  m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
-  m_fontColor32:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
-  m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
-  m_tintAllSprites: 0
-  m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
-  m_overrideHtmlColors: 0
-  m_faceColor:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontSize: 13
-  m_fontSizeBase: 13
-  m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
-  m_fontStyle: 0
-  m_HorizontalAlignment: 2
-  m_VerticalAlignment: 512
-  m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_wordSpacing: 0
-  m_lineSpacing: 0
-  m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
-  m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 0
-  m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_linkedTextComponent: {fileID: 0}
-  parentLinkedComponent: {fileID: 0}
-  m_enableKerning: 1
-  m_enableExtraPadding: 0
-  checkPaddingRequired: 0
-  m_isRichText: 1
-  m_parseCtrlCharacters: 1
-  m_isOrthographic: 0
-  m_isCullingEnabled: 0
-  m_horizontalMapping: 0
-  m_verticalMapping: 0
-  m_uvLineOffset: 0
-  m_geometrySortingOrder: 0
-  m_IsTextObjectScaleStatic: 0
-  m_VertexBufferAutoSizeReduction: 0
-  m_useMaxVisibleDescender: 1
-  m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
-  m_isUsingLegacyAnimationComponent: 0
-  m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
-  m_renderer: {fileID: 1934947975}
-  m_maskType: 0
-  _SortingLayer: 0
-  _SortingLayerID: 0
-  _SortingOrder: 0
---- !u!222 &1934947974
-CanvasRenderer:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1934947971}
-  m_CullTransparentMesh: 0
---- !u!23 &1934947975
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1934947971}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!1 &1970585071
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1970585072}
-  - component: {fileID: 1970585075}
-  - component: {fileID: 1970585074}
-  - component: {fileID: 1970585073}
-  m_Layer: 0
-  m_Name: FallCharText (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1970585072
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1970585071}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0.007}
-  m_LocalScale: {x: 0.15, y: 0.15, z: 0.15}
-  m_Children: []
-  m_Father: {fileID: 1307042987}
-  m_RootOrder: 17
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1, y: 1}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1970585073
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1970585071}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9541d86e2fd84c1d9990edf0852d74ab, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_text: V
-  m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
-  m_fontColor32:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
-  m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
-  m_tintAllSprites: 0
-  m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
-  m_overrideHtmlColors: 0
-  m_faceColor:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontSize: 13
-  m_fontSizeBase: 13
-  m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
-  m_fontStyle: 0
-  m_HorizontalAlignment: 2
-  m_VerticalAlignment: 512
-  m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_wordSpacing: 0
-  m_lineSpacing: 0
-  m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
-  m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 0
-  m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_linkedTextComponent: {fileID: 0}
-  parentLinkedComponent: {fileID: 0}
-  m_enableKerning: 1
-  m_enableExtraPadding: 0
-  checkPaddingRequired: 0
-  m_isRichText: 1
-  m_parseCtrlCharacters: 1
-  m_isOrthographic: 0
-  m_isCullingEnabled: 0
-  m_horizontalMapping: 0
-  m_verticalMapping: 0
-  m_uvLineOffset: 0
-  m_geometrySortingOrder: 0
-  m_IsTextObjectScaleStatic: 0
-  m_VertexBufferAutoSizeReduction: 0
-  m_useMaxVisibleDescender: 1
-  m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
-  m_isUsingLegacyAnimationComponent: 0
-  m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
-  m_renderer: {fileID: 1970585075}
-  m_maskType: 0
-  _SortingLayer: 0
-  _SortingLayerID: 0
-  _SortingOrder: 0
---- !u!222 &1970585074
-CanvasRenderer:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1970585071}
-  m_CullTransparentMesh: 0
---- !u!23 &1970585075
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1970585071}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!1 &1990334268
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1990334269}
-  - component: {fileID: 1990334272}
-  - component: {fileID: 1990334271}
-  - component: {fileID: 1990334270}
-  m_Layer: 0
-  m_Name: FallCharText (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1990334269
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1990334268}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0.001}
-  m_LocalScale: {x: 0.15, y: 0.15, z: 0.15}
-  m_Children: []
-  m_Father: {fileID: 1307042987}
-  m_RootOrder: 9
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1, y: 1}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1990334270
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1990334268}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9541d86e2fd84c1d9990edf0852d74ab, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_text: V
-  m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
-  m_fontColor32:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
-  m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
-  m_tintAllSprites: 0
-  m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
-  m_overrideHtmlColors: 0
-  m_faceColor:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontSize: 13
-  m_fontSizeBase: 13
-  m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
-  m_fontStyle: 0
-  m_HorizontalAlignment: 2
-  m_VerticalAlignment: 512
-  m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_wordSpacing: 0
-  m_lineSpacing: 0
-  m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
-  m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 0
-  m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_linkedTextComponent: {fileID: 0}
-  parentLinkedComponent: {fileID: 0}
-  m_enableKerning: 1
-  m_enableExtraPadding: 0
-  checkPaddingRequired: 0
-  m_isRichText: 1
-  m_parseCtrlCharacters: 1
-  m_isOrthographic: 0
-  m_isCullingEnabled: 0
-  m_horizontalMapping: 0
-  m_verticalMapping: 0
-  m_uvLineOffset: 0
-  m_geometrySortingOrder: 0
-  m_IsTextObjectScaleStatic: 0
-  m_VertexBufferAutoSizeReduction: 0
-  m_useMaxVisibleDescender: 1
-  m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
-  m_isUsingLegacyAnimationComponent: 0
-  m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
-  m_renderer: {fileID: 1990334272}
-  m_maskType: 0
-  _SortingLayer: 0
-  _SortingLayerID: 0
-  _SortingOrder: 0
---- !u!222 &1990334271
-CanvasRenderer:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1990334268}
-  m_CullTransparentMesh: 0
---- !u!23 &1990334272
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1990334268}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!1 &2119552461
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2119552462}
-  - component: {fileID: 2119552465}
-  - component: {fileID: 2119552464}
-  - component: {fileID: 2119552463}
-  m_Layer: 0
-  m_Name: FallCharText (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &2119552462
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2119552461}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0.006}
-  m_LocalScale: {x: 0.15, y: 0.15, z: 0.15}
-  m_Children: []
-  m_Father: {fileID: 1307042987}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1, y: 1}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &2119552463
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2119552461}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9541d86e2fd84c1d9990edf0852d74ab, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_text: V
-  m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
-  m_fontColor32:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
-  m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
-  m_tintAllSprites: 0
-  m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
-  m_overrideHtmlColors: 0
-  m_faceColor:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontSize: 13
-  m_fontSizeBase: 13
-  m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
-  m_fontStyle: 0
-  m_HorizontalAlignment: 2
-  m_VerticalAlignment: 512
-  m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_wordSpacing: 0
-  m_lineSpacing: 0
-  m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
-  m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 0
-  m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_linkedTextComponent: {fileID: 0}
-  parentLinkedComponent: {fileID: 0}
-  m_enableKerning: 1
-  m_enableExtraPadding: 0
-  checkPaddingRequired: 0
-  m_isRichText: 1
-  m_parseCtrlCharacters: 1
-  m_isOrthographic: 0
-  m_isCullingEnabled: 0
-  m_horizontalMapping: 0
-  m_verticalMapping: 0
-  m_uvLineOffset: 0
-  m_geometrySortingOrder: 0
-  m_IsTextObjectScaleStatic: 0
-  m_VertexBufferAutoSizeReduction: 0
-  m_useMaxVisibleDescender: 1
-  m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
-  m_isUsingLegacyAnimationComponent: 0
-  m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
-  m_renderer: {fileID: 2119552465}
-  m_maskType: 0
-  _SortingLayer: 0
-  _SortingLayerID: 0
-  _SortingOrder: 0
---- !u!222 &2119552464
-CanvasRenderer:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2119552461}
-  m_CullTransparentMesh: 0
---- !u!23 &2119552465
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2119552461}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!1 &2142018082
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2142018083}
-  - component: {fileID: 2142018086}
-  - component: {fileID: 2142018085}
-  - component: {fileID: 2142018084}
-  m_Layer: 0
-  m_Name: FallCharText (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &2142018083
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2142018082}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0.006}
-  m_LocalScale: {x: 0.15, y: 0.15, z: 0.15}
-  m_Children: []
-  m_Father: {fileID: 1307042987}
-  m_RootOrder: 16
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1, y: 1}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &2142018084
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2142018082}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9541d86e2fd84c1d9990edf0852d74ab, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_text: V
-  m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
-  m_fontColor32:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
-  m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
-  m_tintAllSprites: 0
-  m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
-  m_overrideHtmlColors: 0
-  m_faceColor:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontSize: 13
-  m_fontSizeBase: 13
-  m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
-  m_fontStyle: 0
-  m_HorizontalAlignment: 2
-  m_VerticalAlignment: 512
-  m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_wordSpacing: 0
-  m_lineSpacing: 0
-  m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
-  m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 0
-  m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_linkedTextComponent: {fileID: 0}
-  parentLinkedComponent: {fileID: 0}
-  m_enableKerning: 1
-  m_enableExtraPadding: 0
-  checkPaddingRequired: 0
-  m_isRichText: 1
-  m_parseCtrlCharacters: 1
-  m_isOrthographic: 0
-  m_isCullingEnabled: 0
-  m_horizontalMapping: 0
-  m_verticalMapping: 0
-  m_uvLineOffset: 0
-  m_geometrySortingOrder: 0
-  m_IsTextObjectScaleStatic: 0
-  m_VertexBufferAutoSizeReduction: 0
-  m_useMaxVisibleDescender: 1
-  m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
-  m_isUsingLegacyAnimationComponent: 0
-  m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
-  m_renderer: {fileID: 2142018086}
-  m_maskType: 0
-  _SortingLayer: 0
-  _SortingLayerID: 0
-  _SortingOrder: 0
---- !u!222 &2142018085
-CanvasRenderer:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2142018082}
-  m_CullTransparentMesh: 0
---- !u!23 &2142018086
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2142018082}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6918137239695442176, guid: 81111799320777648bb5b69f06e6e8e4,
+        type: 3}
+      propertyPath: m_Name
+      value: CommentsBoard
+      objectReference: {fileID: 0}
+    - target: {fileID: 6918137239695442178, guid: 81111799320777648bb5b69f06e6e8e4,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6918137239695442178, guid: 81111799320777648bb5b69f06e6e8e4,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6918137239695442178, guid: 81111799320777648bb5b69f06e6e8e4,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6918137239695442178, guid: 81111799320777648bb5b69f06e6e8e4,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6918137239695442178, guid: 81111799320777648bb5b69f06e6e8e4,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6918137239695442178, guid: 81111799320777648bb5b69f06e6e8e4,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6918137239695442178, guid: 81111799320777648bb5b69f06e6e8e4,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6918137239695442178, guid: 81111799320777648bb5b69f06e6e8e4,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6918137239695442178, guid: 81111799320777648bb5b69f06e6e8e4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6918137239695442178, guid: 81111799320777648bb5b69f06e6e8e4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6918137239695442178, guid: 81111799320777648bb5b69f06e6e8e4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6918137239695442179, guid: 81111799320777648bb5b69f06e6e8e4,
+        type: 3}
+      propertyPath: Scripts.Array.data[1].source
+      value: "-- \u5168\u4F53\u5236\u5FA1\u7528\u30E2\u30B8\u30E5\u30FC\u30EB\r\n---@class
+        SyncCls @\u30C7\u30FC\u30BF\u540C\u671F\u7528\u30AF\u30E9\u30B9\r\n---@field
+        stackTasks ContorolTaskCls[] @\u5236\u5FA1\u60C5\u5831\u7A4D\u3093\u3067\u3042\u308B[\u500B\u6570]\uFF1A\u30BF\u30B9\u30AF\r\n---@field
+        isNoTaskSkip boolean @\u4E00\u90E8\u7A4D\u307F\u30BF\u30B9\u30AF\u30B9\u30AD\u30C3\u30D7\u6642\u4F7F\u7528\r\n---@field
+        comments string[] @\u672A\u9001\u4FE1\u30B3\u30E1\u30F3\u30C8\u914D\u5217\r\n---@field
+        commentsState number[] @subitem\u6587\u5B57\u72B6\u614B\r\n---@field commentsTime
+        number[] @\u6587\u5B57\u751F\u5B58\u3057\u3066\u3044\u308B\u6642\u9593\r\n---@field
+        commentsChar string[] @\u8868\u793A\u6587\u5B57\r\n---@field ownerName string
+        @\u30AA\u30FC\u30CA\u30FC\u540D\r\nlocal syncCls = {}\r\n\r\nlocal controlModule
+        = {}\r\n\r\nlocal DEFINE = require(\"define_Module\")\r\nlocal commentsBoardControlModule
+        = require(\"CommentsBoardControl_Module\")\r\nlocal COMMENTS_BOARD_DEFINE
+        = require(\"CommentsBoardControlDefine_Module\")\r\nlocal SYNC_TIME = 1\r\nlocal
+        syncTime = os.clock()\r\n\r\n---\u30B9\u30BF\u30B8\u30AA\u306E\u30B3\u30E1\u30F3\u30C8\u3092\u8FFD\u52A0\r\n---@param
+        message string @\u30B3\u30E1\u30F3\u30C8\u5185\u5BB9\r\nlocal function addCommentArrayFromStadio(message)\r\n   
+        syncCls.comments[#syncCls.comments + 1] = message\r\nend\r\n\r\n---\u30EB\u30FC\u30E0\u3067\u306E\u30B3\u30E1\u30F3\u30C8\u3092\u8FFD\u52A0\r\n---@param
+        message string @\u30B3\u30E1\u30F3\u30C8\u5185\u5BB9\r\nlocal function addCommentArrayFromRoom(message)\r\n   
+        syncCls.comments[#syncCls.comments + 1] = message\r\nend\r\n\r\n---\u30B9\u30BF\u30B8\u30AA\u306E\u30B3\u30E1\u30F3\u30C8or\"comment\"\u3067\u9001\u3089\u308C\u305F\u30E1\u30C3\u30BB\u30FC\u30B8\u306B\u53CD\u5FDC\r\n---@param
+        sender any @-\r\n---@param name any @-\r\n---@param message string @\u30B3\u30E1\u30F3\u30C8\u5185\u5BB9\r\nlocal
+        function handleGetCommentMessage(sender, name, message)\r\n    -- \u6240\u6709\u6A29\u3042\u308B\u4EBA\u306E\u307F\r\n   
+        if DEFINE.SYNC_ITEM.IsMine then\r\n        -- \u30B9\u30BF\u30B8\u30AA\u306E\u30B3\u30E1\u30F3\u30C8\r\n       
+        if sender[\"type\"] == \"comment\" then\r\n            print(\"stadio:\"
+        .. message)\r\n            ---\u30B9\u30BF\u30B8\u30AA\u306E\u30B3\u30E1\u30F3\u30C8\u3092\u8FFD\u52A0\r\n           
+        addCommentArrayFromStadio(message)\r\n\r\n        elseif sender[\"type\"]
+        == \"vci\" then\r\n            print(\"room:\" .. message)\r\n           
+        ---\u30EB\u30FC\u30E0\u3067\u306E\u30B3\u30E1\u30F3\u30C8\u3092\u8FFD\u52A0\r\n           
+        addCommentArrayFromRoom(message)\r\n        end\r\n    end\r\nend\r\nvci.message.On(\"comment\",
+        handleGetCommentMessage)\r\n\r\n---\u4F7F\u7528\u30BF\u30B9\u30AF\u524A\u9664\r\n---@param
+        noSkip boolean @\u30B9\u30AD\u30C3\u30D7\u306A\u3057\u6709\u7121\r\n---@param
+        stackTasks ContorolTaskCls @\u30BF\u30B9\u30AF\u4FDD\u6301\u60C5\u5831\r\n---@param
+        taskCount number @\u30BF\u30B9\u30AF\u756A\u53F7\r\n---@return ContorolTaskCls[],number
+        @\u30BF\u30B9\u30AF\u524A\u9664\u5F8C\u60C5\u5831,\u30BF\u30B9\u30AF\u756A\u53F7\r\nlocal
+        function taskDelete(noSkip, stackTasks, taskCount)\r\n    if noSkip then\r\n       
+        stackTasks = table.remove(stackTasks, taskCount)\r\n        taskCount = taskCount
+        - 1\r\n    end\r\n    return stackTasks, taskCount\r\nend\r\n\r\n---\u30BF\u30B9\u30AF\u3092\u7A4D\u3080\r\n---@param
+        sender any @-\r\n---@param name any @-\r\n---@param message ContorolTaskCls
+        @\u64CD\u4F5C\u8FFD\u52A0\u3057\u305F\u3044\u5024\r\nlocal function handleSetAddControl(sender,
+        name, message)\r\n    syncCls.stackTasks[#syncCls.stackTasks + 1] = message\r\nend\r\nvci.message.On(DEFINE.MESSAGEKEY_CONTROL_ADD,
+        handleSetAddControl)\r\n\r\n---\u3053\u3053\u81EA\u4F53\u521D\u671F\u5316\r\nlocal
+        function initialize()\r\n    -- \u30AF\u30E9\u30B9\r\n    syncCls.stackTasks
+        = {}\r\n    syncCls.isNoTaskSkip = true\r\n    syncCls.comments = {}\r\n   
+        -- syncCls.comments[1] = \"\U0001F9DB\U0001F3FB\"\r\n    -- syncCls.comments[2]
+        = \"\u306A\u304C\u3044\u3053\u3081\u3093\u3068\"\r\n    -- syncCls.comments[3]
+        = \"\u307F\u3058\u304B\u3044\u3053\u3081\u3093\u3068\"\r\n    syncCls.commentsState
+        = {}\r\n    syncCls.commentsChar = {}\r\n    syncCls.commentsTime = {}\r\n   
+        for i = 1, commentsBoardControlModule.getSubitemCount() do\r\n        syncCls.commentsState[i]
+        = COMMENTS_BOARD_DEFINE.NO_STATE\r\n        syncCls.commentsChar[i] = \"\"\r\n       
+        syncCls.commentsTime[i] = 0\r\n    end\r\n    syncCls.ownerName = \"\"\r\n\r\n   
+        -- \u30E2\u30B8\u30E5\u30FC\u30EB\r\n    controlModule.isSynced = false\r\nend\r\n\r\n---\u3053\u3053\u3067\u306E\u5168\u540C\u671F\u30E1\u30C3\u30BB\u30FC\u30B8\r\nlocal
+        function allSyncMessage()\r\n    syncCls.ownerName = vci.studio.GetLocalAvatar().GetName()\r\n   
+        -- \u5897\u6E1B\u3084\u5909\u66F4\u3092\u540C\u671F\r\n    vci.message.EmitWithId(DEFINE.MESSAGEKEY_SYNC_ALL,
+        syncCls, vci.assets.GetInstanceId())\r\nend\r\n\r\n---\u5168\u540C\u671F\r\n---@param
+        sender any @-\r\n---@param name any @-\r\n---@param message SyncCls @\u540C\u671F\u3057\u305F\u3044\u5024\r\nlocal
+        function handleSetCurrentAllData(sender, name, message)\r\n    -- \u540C\u671F\r\n   
+        syncCls = message\r\n\r\n    -- \u540C\u671F\u5B8C\u4E86\u30D5\u30E9\u30B0\r\n   
+        controlModule.isSynced = true\r\nend\r\nvci.message.On(DEFINE.MESSAGEKEY_SYNC_ALL,
+        handleSetCurrentAllData)\r\n\r\n-- \u7A4D\u307E\u308C\u3066\u3044\u308B\u30BF\u30B9\u30AF\u306E\u51E6\u7406\r\nvci.StartCoroutine(coroutine.create(function()\r\n   
+        local taskCount = 1\r\n    local coltineTimer = os.clock()\r\n    local coltineTimerCount
+        = 1 / 85\r\n    while true do\r\n        -- \u540C\u671F\u7528\u6240\u6709\u6A29\u30A2\u30A4\u30C6\u30E0\r\n       
+        if DEFINE.SYNC_ITEM.IsMine then\r\n            -- \u30BF\u30B9\u30AF\u304C\u3042\u308C\u3070\r\n           
+        while #syncCls.stackTasks ~= 0 do\r\n                -- \u30BF\u30B9\u30AF\u9577\u3044\u306E\u3067\u4FDD\u6301\r\n               
+        local task = syncCls.stackTasks[taskCount]\r\n                -- \u30BF\u30B9\u30AF\u30B9\u30AD\u30C3\u30D7\u3042\u308C\u3070\u51E6\u7406\r\n               
+        if task.controlNum == DEFINE.CONTROLKEY_TASK_SKIP then\r\n                   
+        syncCls.isNoTaskSkip = false\r\n                    table.remove(task, taskCount)\r\n                   
+        allSyncMessage()\r\n                    break\r\n                elseif task.controlNum
+        == DEFINE.CONTROLKEY_TASK_SKIP_END then\r\n                    syncCls.isNoTaskSkip
+        = true\r\n                    table.remove(task, taskCount)\r\n                   
+        allSyncMessage()\r\n                    break\r\n                end\r\n\r\n               
+        -- \u30BF\u30B9\u30AF\u30E1\u30A4\u30F3\u51E6\u7406\r\n                if
+        task.controlNum == DEFINE.CONTROLKEY_ENTER_ROOM then\r\n                   
+        syncCls.stackTasks, taskCount = taskDelete(syncCls.isNoTaskSkip, syncCls.stackTasks,
+        taskCount)\r\n                    -- \u30B3\u30E1\u30F3\u30C8\u540C\u671F\u51E6\u7406\r\n                   
+        commentsBoardControlModule.commentSync(syncCls.commentsChar)\r\n                   
+        allSyncMessage()\r\n                    break\r\n                elseif task.controlNum
+        == DEFINE.CONTROLKEY_TIME_SYNC then\r\n                    syncCls.stackTasks,
+        taskCount = taskDelete(syncCls.isNoTaskSkip, syncCls.stackTasks, taskCount)\r\n                   
+        allSyncMessage()\r\n                    break\r\n                elseif task.controlNum
+        == DEFINE.CONTROLKEY_STATE_SYNC then\r\n                    syncCls.stackTasks,
+        taskCount = taskDelete(syncCls.isNoTaskSkip, syncCls.stackTasks, taskCount)\r\n                   
+        allSyncMessage()\r\n                    break\r\n                elseif task.controlNum
+        == DEFINE.CONTROLKEY_GRAB then\r\n                    syncCls.stackTasks,
+        taskCount = taskDelete(syncCls.isNoTaskSkip, syncCls.stackTasks, taskCount)\r\n                   
+        -- \u843D\u4E0B\u4E2D\u306E\u307F\r\n                    if (syncCls.commentsState[task.what]
+        == COMMENTS_BOARD_DEFINE.FALL_STATE) and\r\n                        (task.toWhat
+        == COMMENTS_BOARD_DEFINE.GRAB_STATE) then\r\n                        syncCls.commentsState[task.what]
+        = task.toWhat\r\n                    elseif (syncCls.commentsState[task.what]
+        == COMMENTS_BOARD_DEFINE.GRAB_STATE) and\r\n                        (task.toWhat
+        == COMMENTS_BOARD_DEFINE.FALL_STATE) then\r\n                        syncCls.commentsTime[task.what]
+        = task.toWhom\r\n                        syncCls.commentsState[task.what]
+        = task.toWhat\r\n                    end\r\n                    allSyncMessage()\r\n                   
+        break\r\n                elseif task.controlNum == DEFINE.CONTROLKEY_USE
+        then\r\n                    syncCls.stackTasks, taskCount = taskDelete(syncCls.isNoTaskSkip,
+        syncCls.stackTasks, taskCount)\r\n                    -- \u843D\u4E0B\u4E2D\u3001grab\u4E2D\u306E\u307F\r\n                   
+        if ((syncCls.commentsState[task.what] == COMMENTS_BOARD_DEFINE.FALL_STATE)
+        or\r\n                        (syncCls.commentsState[task.what] == COMMENTS_BOARD_DEFINE.GRAB_STATE))
+        and\r\n                        (task.toWhat == COMMENTS_BOARD_DEFINE.FIX_STATE)
+        then\r\n                        syncCls.commentsState[task.what] = task.toWhat\r\n                   
+        elseif (syncCls.commentsState[task.what] == COMMENTS_BOARD_DEFINE.FIX_STATE)
+        and\r\n                        (task.toWhat == COMMENTS_BOARD_DEFINE.DELETE_STATE)
+        then\r\n                        syncCls.commentsState[task.what] = task.toWhat\r\n                       
+        syncCls.commentsChar[task.what] = \"\"\r\n                    end\r\n                   
+        allSyncMessage()\r\n                    break\r\n                elseif task.controlNum
+        == DEFINE.CONTROLKEY_DELETE then\r\n                    syncCls.stackTasks,
+        taskCount = taskDelete(syncCls.isNoTaskSkip, syncCls.stackTasks, taskCount)\r\n                   
+        -- \u56FA\u5B9A\u4E2D\u306E\u307F\r\n                    if ((syncCls.commentsState[task.what]
+        == COMMENTS_BOARD_DEFINE.FALL_STATE) or\r\n                        (syncCls.commentsState[task.what]
+        == COMMENTS_BOARD_DEFINE.FIX_STATE) or\r\n                        (syncCls.commentsState[task.what]
+        == COMMENTS_BOARD_DEFINE.GRAB_STATE)) then\r\n                        syncCls.commentsState[task.what]
+        = COMMENTS_BOARD_DEFINE.DELETE_STATE\r\n                    end\r\n                   
+        allSyncMessage()\r\n                    break\r\n                end\r\n\r\n               
+        -- \u6B21\u30BF\u30B9\u30AF\r\n                taskCount = taskCount + 1\r\n               
+        -- \u30BF\u30A4\u30DF\u30F3\u30B0\u3067\u306E\u540C\u671F\r\n               
+        if #syncCls.stackTasks == 0 or (os.clock() - coltineTimer) > coltineTimerCount
+        then\r\n                    allSyncMessage()\r\n                    coroutine.yield()\r\n                   
+        coltineTimer = os.clock()\r\n                end\r\n            end\r\n       
+        end\r\n\r\n        coroutine.yield()\r\n        coltineTimer = os.clock()\r\n       
+        taskCount = 1\r\n    end\r\nend))\r\n\r\n-- \u901A\u5E38\u51E6\u7406\r\nfunction
+        updateAll()\r\n    -- \u30B3\u30E1\u30F3\u30C8\u5236\u5FA1\u51E6\u7406\r\n   
+        commentsBoardControlModule.commentControl(syncCls.ownerName, syncCls.commentsChar,
+        syncCls.commentsState,\r\n        syncCls.commentsTime)\r\n\r\n    -- \u540C\u671F\u7528\u6240\u6709\u6A29\u30A2\u30A4\u30C6\u30E0\r\n   
+        if DEFINE.SYNC_ITEM.IsMine then\r\n        -- \u30B3\u30E1\u30F3\u30C8\u6709\r\n       
+        if #syncCls.comments > 0 then\r\n            -- \u30B3\u30E1\u30F3\u30C8\u843D\u4E0B\u51FA\u6765\u305F\u3089\u843D\u4E0B\u30B3\u30E1\u30F3\u30C8\u524A\u9664\r\n           
+        local enable = false\r\n            enable, syncCls.commentsChar, syncCls.commentsState,
+        syncCls.commentsTime =\r\n                commentsBoardControlModule.fallComment(syncCls.comments[1],
+        syncCls.commentsChar, syncCls.commentsState,\r\n                    syncCls.commentsTime)\r\n           
+        if enable then\r\n                table.remove(syncCls.comments, 1)\r\n               
+        ---\u540C\u671F\u30E1\u30C3\u30BB\u30FC\u30B8(\u30BF\u30B9\u30AF\u8FFD\u52A0)\r\n               
+        DEFINE.controlAddMessage(0, 0, 0, 0, DEFINE.CONTROLKEY_STATE_SYNC)\r\n           
+        end\r\n        end\r\n\r\n        -- \u6642\u9593\u540C\u671F\r\n       
+        local time = os.clock() - syncTime\r\n        if time >= SYNC_TIME then\r\n           
+        syncTime = os.clock()\r\n            syncCls.commentsTime = commentsBoardControlModule.addTime(syncCls.commentsState,
+        syncCls.commentsTime, time)\r\n            ---\u6642\u9593\u540C\u671F\u30E1\u30C3\u30BB\u30FC\u30B8(\u30BF\u30B9\u30AF\u8FFD\u52A0)\r\n           
+        DEFINE.controlAddMessage(0, 0, 0, 0, DEFINE.CONTROLKEY_TIME_SYNC)\r\n       
+        end\r\n    end\r\nend\r\n\r\nfunction controlModule.onUse(use)\r\n    commentsBoardControlModule.onUse(use,
+        syncCls.commentsState)\r\nend\r\n\r\nfunction controlModule.onUnuse(use)\r\n   
+        commentsBoardControlModule.onUnuse(use, syncCls.commentsState)\r\nend\r\n\r\nfunction
+        controlModule.onTriggerEnter(item, hit)\r\nend\r\n\r\nfunction controlModule.onTriggerExit(item,
+        hit)\r\nend\r\n\r\nfunction controlModule.onCollisionEnter(item, hit)\r\nend\r\n\r\nfunction
+        controlModule.onCollisionExit(item, hit)\r\nend\r\n\r\nfunction controlModule.onGrab(target)\r\n   
+        commentsBoardControlModule.onGrab(target, syncCls.commentsState)\r\nend\r\n\r\nfunction
+        controlModule.onUngrab(target)\r\n    commentsBoardControlModule.onUngrab(target,
+        syncCls.commentsState)\r\nend\r\n\r\ninitialize()\r\n\r\nreturn controlModule\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6918137239695442179, guid: 81111799320777648bb5b69f06e6e8e4,
+        type: 3}
+      propertyPath: Scripts.Array.data[3].source
+      value: "-- \u30B3\u30E1\u30F3\u30C8\u843D\u4E0B\u5168\u4F53\u5236\u5FA1\u7528\u30E2\u30B8\u30E5\u30FC\u30EB\r\n---@class
+        CommentsCls @\u30C7\u30FC\u30BF\u540C\u671F\u7528\u30AF\u30E9\u30B9\r\n---@field
+        subitem Transform[] @\u30B5\u30D6\u30A2\u30A4\u30C6\u30E0\r\n---@field textitem
+        string[] @\u30C6\u30AD\u30B9\u30C8\u30A2\u30A4\u30C6\u30E0\r\n---@field garbTimes
+        number[] @\u63E1\u3063\u305F\u6642\u9593\r\nlocal commentsCls = {}\r\n\r\nlocal
+        fallCommentsControlModule = {}\r\n\r\nlocal DEFINE = require(\"define_Module\")\r\nlocal
+        FALL_COMMENTS_DEFINE = require(\"CommentsBoardControlDefine_Module\")\r\n\r\nlocal
+        micItem = vci.assets.GetTransform(\"MicItem\")\r\nlocal isGrab = {}\r\nlocal
+        randDate = {}\r\n\r\n---\u7269\u7406\u521D\u671F\u5316\r\n---@param commentNumber
+        number @\u30B3\u30E1\u30F3\u30C8\u756A\u53F7\r\nlocal function resetPysics(commentNumber)\r\n   
+        if commentsCls.subitem[commentNumber].IsMine then\r\n        commentsCls.subitem[commentNumber].AddForce(Vector3.zero)\r\n       
+        commentsCls.subitem[commentNumber].SetVelocity(Vector3.zero)\r\n        commentsCls.subitem[commentNumber].SetAngularVelocity(Vector3.zero)\r\n       
+        commentsCls.subitem[commentNumber].SetLocalScale(Vector3.__new(0.001, 0.001,
+        0.001))\r\n        if commentsCls.subitem[commentNumber].IsAttached then\r\n           
+        commentsCls.subitem[commentNumber].DetachFromAvatar()\r\n            commentsCls.subitem[commentNumber].SetPosition(Vector3.__new(commentNumber,
+        -100000, 10))\r\n        end\r\n    end\r\nend\r\n\r\n---\u30B3\u30E1\u30F3\u30C8\u8868\u793A\r\n---@param
+        commentNumber number @\u30B3\u30E1\u30F3\u30C8\u756A\u53F7\r\n---@param char
+        string @\u30B3\u30E1\u30F3\u30C8\r\nlocal function commentShow(commentNumber,
+        char)\r\n    vci.assets._ALL_SetText(commentsCls.textitem[commentNumber],
+        char)\r\nend\r\n\r\n---\u30B3\u30E1\u30F3\u30C8\u843D\u4E0B\r\n---@param
+        commentArray string[] @\u30B3\u30E1\u30F3\u30C8\u914D\u5217\r\n---@param
+        useArray number[] @\u4F7F\u7528\u3059\u308B\u914D\u5217\r\n---@param charArray
+        string[] @\u30B3\u30E1\u30F3\u30C8\u8868\u8A18\u914D\u5217\r\n---@param state
+        number[] @\u30B3\u30E1\u30F3\u30C8\u72B6\u614B\u914D\u5217\r\n---@param times
+        number[] @\u30B3\u30E1\u30F3\u30C8\u6642\u9593\u914D\u5217\r\n---@return
+        string[] @\u30B3\u30E1\u30F3\u30C8\u914D\u5217,\u30B3\u30E1\u30F3\u30C8\u72B6\u614B\u914D\u5217,\u30B3\u30E1\u30F3\u30C8\u6642\u9593\u914D\u5217\u66F4\u65B0\r\nlocal
+        function fallComment(stringArray, useArray, charArray, state, times)\r\n   
+        local randNumber = math.random(1, 6)\r\n    local randY = (randNumber - 6
+        / 2 - 0.5)\r\n    local randNumber = math.random(1, #FALL_COMMENTS_DEFINE.RAND_ARRAY)\r\n   
+        local randX = FALL_COMMENTS_DEFINE.RAND_ARRAY[randNumber]\r\n    randNumber
+        = math.random(1, #FALL_COMMENTS_DEFINE.RAND_ARRAY)\r\n    local randZ = FALL_COMMENTS_DEFINE.RAND_ARRAY[randNumber]\r\n\r\n   
+        local defaultPosition = Vector3.__new(0, 1.2, 0) + micItem.GetPosition()\r\n   
+        local defaultRotation = micItem.GetRotation()\r\n    for i = 1, #useArray
+        do\r\n        state[useArray[i]] = FALL_COMMENTS_DEFINE.FALL_STATE\r\n       
+        times[useArray[i]] = 0\r\n        charArray[useArray[i]] = stringArray[i]\r\n       
+        commentShow(useArray[i], stringArray[i])\r\n\r\n        commentsCls.subitem[useArray[i]].SetRotation(defaultRotation)\r\n       
+        resetPysics(useArray[i])\r\n        commentsCls.subitem[useArray[i]].SetPosition(defaultPosition
+        + defaultRotation *\r\n                                                        
+        Vector3.__new(0.6 * ((i - #useArray / 2 - 0.5) + randX),\r\n               
+        randY * 0.33, -0.5 + 0.08 * randZ))\r\n        commentsCls.subitem[useArray[i]].SetLocalScale(Vector3.__new(1,
+        1, 1))\r\n    end\r\n    return charArray, state, times\r\nend\r\n\r\n---\u30B3\u30E1\u30F3\u30C8\u7A7A\u767D\u691C\u7D22\r\n---@param
+        commentArray string[] @\u30B3\u30E1\u30F3\u30C8\u914D\u5217\r\n---@param
+        state number[] @\u30B3\u30E1\u30F3\u30C8\u72B6\u614B\u914D\u5217\r\n---@return
+        number[] @\u30B3\u30E1\u30F3\u30C8\u3067\u4F7F\u7528\u3059\u308B\u756A\u53F7\u306E\u914D\u5217\r\nlocal
+        function stateVoidCheck(commentArray, state)\r\n    local useArray = {}\r\n   
+        for i = 1, #state do\r\n        if state[i] == FALL_COMMENTS_DEFINE.NO_STATE
+        then\r\n            useArray[#useArray + 1] = i\r\n            -- \u6700\u5927\u6587\u5B57\u6570\u304B\u3001\u30B3\u30E1\u30F3\u30C8\u6570\r\n           
+        if (FALL_COMMENTS_DEFINE.STRING_MAX == #useArray) or (#commentArray == #useArray)
+        then\r\n                return useArray\r\n            end\r\n        end\r\n   
+        end\r\n    return {}\r\nend\r\n\r\n---\u30B3\u30E1\u30F3\u30C8\u6642\u9593\u7D4C\u904E\u306B\u3088\u308B\u524A\u9664\r\n---@param
+        commentNumber number @\u30B3\u30E1\u30F3\u30C8\u756A\u53F7\r\n---@param charArray
+        string[] @\u30B3\u30E1\u30F3\u30C8\u8868\u8A18\u914D\u5217\r\n---@param state
+        number[] @\u30B3\u30E1\u30F3\u30C8\u72B6\u614B\u914D\u5217\r\n---@param times
+        number[] @\u30B3\u30E1\u30F3\u30C8\u6642\u9593\u914D\u5217\r\n---@return
+        string[],number[],number[] @\u30B3\u30E1\u30F3\u30C8\u8868\u8A18\u914D\u5217,\u30B3\u30E1\u30F3\u30C8\u72B6\u614B\u914D\u5217,\u30B3\u30E1\u30F3\u30C8\u6642\u9593\u914D\u5217\u66F4\u65B0\r\nlocal
+        function timeDelete(commentNumber, charArray, state, times)\r\n    if times[commentNumber]
+        >= FALL_COMMENTS_DEFINE.DELETE_TIME then\r\n        charArray[commentNumber]
+        = \"\"\r\n        state[commentNumber] = FALL_COMMENTS_DEFINE.DELETE_STATE\r\n       
+        times[commentNumber] = 0\r\n        commentShow(commentNumber, charArray[commentNumber])\r\n   
+        end\r\n    return charArray, state, times\r\nend\r\n\r\n-- \u88C5\u7740\u7B49\u51E6\u7406\r\n---@param
+        ownerName string @\u30AA\u30FC\u30CA\u30FC\u540D\r\n---@param commentNumber
+        number @\u30B3\u30E1\u30F3\u30C8\u756A\u53F7\r\n---@param state number[]
+        @\u30B3\u30E1\u30F3\u30C8\u72B6\u614B\u914D\u5217\r\n---@return number[]
+        @\u30B3\u30E1\u30F3\u30C8\u72B6\u614B\u914D\u5217\r\nlocal function attachDelete(ownerName,
+        commentNumber, state)\r\n    if not isGrab[commentNumber] then\r\n       
+        -- \u6240\u6709\u6A29\u304C\u3042\u308A\u3001\u524A\u9664\u4E2D\r\n       
+        if commentsCls.subitem[commentNumber].IsMine and (state[commentNumber] ==
+        FALL_COMMENTS_DEFINE.DELETE_STATE) then\r\n            -- \u88C5\u7740\u524D(\u6240\u6709\u6A29\u79FB\u308B\u524D)\u306A\u3089\u3070\r\n           
+        if not commentsCls.subitem[commentNumber].IsAttached then\r\n               
+        resetPysics(commentNumber)\r\n                -- \u8FFD\u5F93\u30DC\u30FC\u30F3\u60C5\u5831(Local)\r\n               
+        local followBone = nil\r\n                local avater = vci.studio.GetAvatars()\r\n               
+        for count = 1, #avater do\r\n                    -- \u30AA\u30FC\u30CA\u30FC\u306E\u30A2\u30D0\u30BF\u30FC\u53D6\u5F97\r\n                   
+        if ownerName == avater[count].GetName() then\r\n                        followBone
+        = avater[count].GetBoneTransform(\"Head\")\r\n                    end\r\n               
+        end\r\n\r\n                if followBone ~= nil then\r\n                   
+        commentsCls.subitem[commentNumber].SetPosition(followBone.position)\r\n                   
+        commentsCls.subitem[commentNumber].AttachToAvatar()\r\n                end\r\n           
+        else\r\n                resetPysics(commentNumber)\r\n                state[commentNumber]
+        = FALL_COMMENTS_DEFINE.WAIT_STATE\r\n            end\r\n        end\r\n       
+        if commentsCls.subitem[commentNumber].IsMine then\r\n            if (not
+        commentsCls.subitem[commentNumber].IsAttached) and\r\n                (state[commentNumber]
+        == FALL_COMMENTS_DEFINE.WAIT_STATE) then\r\n                state[commentNumber]
+        = FALL_COMMENTS_DEFINE.NO_STATE\r\n            elseif (commentsCls.subitem[commentNumber].IsAttached)
+        then\r\n                resetPysics(commentNumber)\r\n            elseif
+        (state[commentNumber] == FALL_COMMENTS_DEFINE.NO_STATE) then\r\n               
+        resetPysics(commentNumber)\r\n            end\r\n        end\r\n    end\r\n   
+        return state\r\nend\r\n\r\n---\u3053\u3053\u81EA\u4F53\u521D\u671F\u5316\r\nlocal
+        function initialize()\r\n    commentsCls.subitem = {}\r\n    commentsCls.textitem
+        = {}\r\n    commentsCls.garbTimes = {}\r\n    -- \u30B5\u30D6\u30A2\u30A4\u30C6\u30E0\u60C5\u5831\u8FFD\u52A0\r\n   
+        for i = 1, 1000 do\r\n        local subitem = vci.assets.GetTransform(FALL_COMMENTS_DEFINE.STR_CHAR
+        .. i .. \")\")\r\n        if subitem == nil then\r\n            break\r\n       
+        end\r\n        commentsCls.subitem[i] = subitem\r\n        commentsCls.textitem[i]
+        = FALL_COMMENTS_DEFINE.STR_CHAR_TXT .. i .. \")\"\r\n        commentsCls.garbTimes[i]
+        = 0\r\n        resetPysics(i)\r\n        if commentsCls.subitem[i].IsMine
+        then\r\n            commentsCls.subitem[i].SetPosition(Vector3.__new(i, -100000,
+        0))\r\n            commentsCls.subitem[i].SetLocalScale(Vector3.__new(1,
+        1, 1))\r\n        end\r\n        isGrab[i] = false\r\n    end\r\n    randDate
+        = FALL_COMMENTS_DEFINE.RAND_ARRAY\r\nend\r\n\r\n---\u30B3\u30E1\u30F3\u30C8\u843D\u4E0B\u51E6\u7406\r\n---@param
+        comment string @1\u884C\u306E\u30B3\u30E1\u30F3\u30C8\r\n---@param charArray
+        string[] @\u30B3\u30E1\u30F3\u30C8\u8868\u8A18\u914D\u5217\r\n---@param state
+        number[] @\u30B3\u30E1\u30F3\u30C8\u72B6\u614B\u914D\u5217\r\n---@param times
+        number[] @\u30B3\u30E1\u30F3\u30C8\u6642\u9593\u914D\u5217\r\n---@return
+        boolean,string[],number[],number[] @\u30B3\u30E1\u30F3\u30C8\u843D\u4E0B\u53EF\u5426,\u30B3\u30E1\u30F3\u30C8\u8868\u8A18\u914D\u5217,\u30B3\u30E1\u30F3\u30C8\u72B6\u614B\u914D\u5217,\u30B3\u30E1\u30F3\u30C8\u6642\u9593\u914D\u5217\u66F4\u65B0\r\nfunction
+        fallCommentsControlModule.fallComment(comment, charArray, state, times)\r\n   
+        local stringArray = {comment}\r\n    local useArray = stateVoidCheck(stringArray,
+        state)\r\n    -- \u30B3\u30E1\u30F3\u30C8\u6295\u4E0B\u3067\u304D\u308B\u72B6\u614B\u306A\u3089\u3070\r\n   
+        if #useArray > 0 then\r\n        charArray, state, times = fallComment(stringArray,
+        useArray, charArray, state, times)\r\n        return true, charArray, state,
+        times\r\n    end\r\n    return false, charArray, state, times\r\nend\r\n\r\n--
+        \u30B3\u30E1\u30F3\u30C8\u5236\u5FA1\u51E6\u7406\r\n---@param ownerName string
+        @\u30AA\u30FC\u30CA\u30FC\u540D\r\n---@param charArray string[] @\u30B3\u30E1\u30F3\u30C8\u8868\u8A18\u914D\u5217\r\n---@param
+        state number[] @\u30B3\u30E1\u30F3\u30C8\u72B6\u614B\u914D\u5217\r\n---@param
+        times number[] @\u30B3\u30E1\u30F3\u30C8\u6642\u9593\u914D\u5217\r\nfunction
+        fallCommentsControlModule.commentControl(ownerName, charArray, state, times)\r\n   
+        for count = 1, #state do\r\n        -- \u843D\u4E0B\u5BFE\u8C61\u306A\u3089\u3070\r\n       
+        if state[count] == FALL_COMMENTS_DEFINE.FALL_STATE then\r\n            charArray,
+        state, times = timeDelete(count, charArray, state, times)\r\n        elseif
+        state[count] == FALL_COMMENTS_DEFINE.FIX_STATE then\r\n            -- \u63E1\u3063\u3066\u306A\u3044\u3068\u304D\r\n           
+        if not isGrab[count] then\r\n                -- \u30B3\u30E1\u30F3\u30C8\u306E\u7269\u7406\u30EA\u30BB\u30C3\u30C8\r\n               
+        commentsCls.subitem[count].AddForce(Vector3.zero)\r\n                commentsCls.subitem[count].SetVelocity(Vector3.zero)\r\n               
+        commentsCls.subitem[count].SetAngularVelocity(Vector3.zero)\r\n           
+        end\r\n        end\r\n        -- \u88C5\u7740\u7B49\u51E6\u7406\r\n       
+        state = attachDelete(ownerName, count, state)\r\n    end\r\n\r\n    return
+        charArray, state, times\r\nend\r\n\r\n-- \u30B3\u30E1\u30F3\u30C8\u6642\u9593\u7D4C\u904E\u51E6\u7406\r\n---@param
+        state number[] @\u30B3\u30E1\u30F3\u30C8\u72B6\u614B\u914D\u5217\r\n---@param
+        times number[] @\u30B3\u30E1\u30F3\u30C8\u6642\u9593\u914D\u5217\r\n---@param
+        addTime number @\u6642\u9593\u7D4C\u904E\r\n---@return number[] @\u30B3\u30E1\u30F3\u30C8\u6642\u9593\u914D\u5217\u66F4\u65B0\r\nfunction
+        fallCommentsControlModule.addTime(state, times, addTime)\r\n    for count
+        = 1, #times do\r\n        -- \u843D\u4E0B\u6642\u306E\u307F\u6642\u9593\u7D4C\u904E\r\n       
+        if state[count] == FALL_COMMENTS_DEFINE.FALL_STATE then\r\n            times[count]
+        = times[count] + addTime\r\n        end\r\n    end\r\n    return times\r\nend\r\n\r\n--
+        \u30B3\u30E1\u30F3\u30C8\u540C\u671F\u51E6\u7406\r\n---@param charArray string[]
+        @\u30B3\u30E1\u30F3\u30C8\u8868\u8A18\u914D\u5217\r\nfunction fallCommentsControlModule.commentSync(charArray)\r\n   
+        for count = 1, #charArray do\r\n        commentShow(count, charArray[count])\r\n   
+        end\r\nend\r\n\r\n-- \u30B5\u30D6\u30A2\u30A4\u30C6\u30E0\u6570\u8FD4\u3059\r\n---@return
+        number @\u30B5\u30D6\u30A2\u30A4\u30C6\u30E0\u6570\r\nfunction fallCommentsControlModule.getSubitemCount()\r\n   
+        return #commentsCls.subitem\r\nend\r\n\r\n-- use\u95A2\u4FC2\r\n---@param
+        target string @\u540D\u79F0\r\n---@param state number[] @\u30B3\u30E1\u30F3\u30C8\u72B6\u614B\u914D\u5217\r\nfunction
+        fallCommentsControlModule.onUse(use, state)\r\n    for count = 1, #commentsCls.subitem
+        do\r\n        if use == commentsCls.subitem[count].GetName() then\r\n           
+        -- \u843D\u4E0B\u4E2D\u306E\u307F\r\n            if ((state[count] == FALL_COMMENTS_DEFINE.FALL_STATE)
+        or (state[count] == FALL_COMMENTS_DEFINE.GRAB_STATE)) then\r\n               
+        ---\u540C\u671F\u30E1\u30C3\u30BB\u30FC\u30B8(\u30BF\u30B9\u30AF\u8FFD\u52A0)\r\n               
+        DEFINE.controlAddMessage(0, 0, count, FALL_COMMENTS_DEFINE.FIX_STATE, DEFINE.CONTROLKEY_USE)\r\n           
+        elseif state[count] == FALL_COMMENTS_DEFINE.FIX_STATE then\r\n               
+        ---\u540C\u671F\u30E1\u30C3\u30BB\u30FC\u30B8(\u30BF\u30B9\u30AF\u8FFD\u52A0)\r\n               
+        DEFINE.controlAddMessage(0, 0, count, FALL_COMMENTS_DEFINE.DELETE_STATE,
+        DEFINE.CONTROLKEY_USE)\r\n            end\r\n            commentsCls.garbTimes[count]
+        = os.clock()\r\n            break\r\n        end\r\n    end\r\nend\r\n\r\n--
+        unuse\u95A2\u4FC2\r\n---@param target string @\u540D\u79F0\r\n---@param state
+        number[] @\u30B3\u30E1\u30F3\u30C8\u72B6\u614B\u914D\u5217\r\nfunction fallCommentsControlModule.onUnuse(use,
+        state)\r\n    for count = 1, #commentsCls.subitem do\r\n        if use ==
+        commentsCls.subitem[count].GetName() then\r\n            -- \u524A\u9664\u958B\u59CB\u6642\u9593\u3060\u3063\u305F\u3089\u3070\r\n           
+        if (os.clock() - commentsCls.garbTimes[count]) >= FALL_COMMENTS_DEFINE.DELETE_USE_TIME
+        then\r\n                -- \u843D\u4E0B\u4E2D,\u56FA\u5B9A\u4E2D\u306E\u307F\r\n               
+        if (state[count] == FALL_COMMENTS_DEFINE.FALL_STATE) or (state[count] ==
+        FALL_COMMENTS_DEFINE.FIX_STATE) or\r\n                    (state[count] ==
+        FALL_COMMENTS_DEFINE.GRAB_STATE) then\r\n                    ---\u540C\u671F\u30E1\u30C3\u30BB\u30FC\u30B8(\u30BF\u30B9\u30AF\u8FFD\u52A0)\r\n                   
+        DEFINE.controlAddMessage(0, 0, count, 0, DEFINE.CONTROLKEY_DELETE)\r\n               
+        end\r\n            end\r\n            break\r\n        end\r\n    end\r\nend\r\n\r\n--
+        grab\u95A2\u4FC2\r\n---@param target string @\u540D\u79F0\r\n---@param state
+        number[] @\u30B3\u30E1\u30F3\u30C8\u72B6\u614B\u914D\u5217\r\nfunction fallCommentsControlModule.onGrab(item,
+        state)\r\n    for count = 1, #commentsCls.subitem do\r\n        if item ==
+        commentsCls.subitem[count].GetName() then\r\n            -- \u843D\u4E0B\u4E2D\u306E\u307F\r\n           
+        if state[count] == FALL_COMMENTS_DEFINE.FALL_STATE then\r\n               
+        ---\u540C\u671F\u30E1\u30C3\u30BB\u30FC\u30B8(\u30BF\u30B9\u30AF\u8FFD\u52A0)\r\n               
+        DEFINE.controlAddMessage(0, 0, count, FALL_COMMENTS_DEFINE.GRAB_STATE, DEFINE.CONTROLKEY_GRAB)\r\n           
+        end\r\n            isGrab[count] = true\r\n            break\r\n        end\r\n   
+        end\r\nend\r\n\r\n-- ungrab\u95A2\u4FC2\r\n---@param target string @\u540D\u79F0\r\n---@param
+        state number[] @\u30B3\u30E1\u30F3\u30C8\u72B6\u614B\u914D\u5217\r\nfunction
+        fallCommentsControlModule.onUngrab(target, state)\r\n    for count = 1, #commentsCls.subitem
+        do\r\n        if target == commentsCls.subitem[count].GetName() then\r\n           
+        -- \u843D\u4E0B\u4E2D\u306E\u307F\r\n            if state[count] == FALL_COMMENTS_DEFINE.GRAB_STATE
+        then\r\n                ---\u540C\u671F\u30E1\u30C3\u30BB\u30FC\u30B8(\u30BF\u30B9\u30AF\u8FFD\u52A0)\r\n               
+        DEFINE.controlAddMessage(0, FALL_COMMENTS_DEFINE.DELETE_TIME - FALL_COMMENTS_DEFINE.DELETE_GRAB_TIME,\r\n                   
+        count, FALL_COMMENTS_DEFINE.FALL_STATE, DEFINE.CONTROLKEY_GRAB)\r\n           
+        end\r\n            isGrab[count] = false\r\n            break\r\n       
+        end\r\n    end\r\nend\r\n\r\ninitialize()\r\n\r\nreturn fallCommentsControlModule\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6918137239695442179, guid: 81111799320777648bb5b69f06e6e8e4,
+        type: 3}
+      propertyPath: Scripts.Array.data[4].source
+      value: "-- \u30B3\u30E1\u30F3\u30C8\u843D\u4E0B\u5171\u901A\u90E8\u7528\u30E2\u30B8\u30E5\u30FC\u30EB\r\n---\u5171\u901A\u4F7F\u7528\u90E8\u5206\u5B9A\u7FA9\r\nlocal
+        _defineModule = {\r\n    ---\u6587\u5B57\u672C\u4F53\r\n    STR_CHAR = \"CommentBoard
+        (\",\r\n    ---\u6587\u5B57\u672C\u4F53\u306E\u30C6\u30AD\u30B9\u30C8\r\n   
+        STR_CHAR_TXT = \"CharText (\",\r\n    ---1\u30B3\u30E1\u30F3\u30C8\u6587\u5B57\u3042\u305F\u308A\u306E\u6587\u5B57\u6700\u5927\u6570\r\n   
+        STRING_MAX = 16,\r\n    ---\u30B3\u30E1\u30F3\u30C8\u524A\u9664\u307E\u3067\u306E\u6642\u9593\r\n   
+        DELETE_TIME = 13,\r\n    ---\u63E1\u3063\u305F\u5834\u5408\u306E\u30B3\u30E1\u30F3\u30C8\u524A\u9664\u307E\u3067\u306E\u6642\u9593\u5F37\u5236\u5909\u66F4\r\n   
+        DELETE_GRAB_TIME = 5,\r\n    ---Use\u9577\u62BC\u3057\u306E\u5834\u5408\u306E\u30B3\u30E1\u30F3\u30C8\u524A\u9664\u6642\u9593\r\n   
+        DELETE_USE_TIME = 2.5,\r\n    -- \u30B3\u30E1\u30F3\u30C8\u72B6\u614B\u9077\u79FB\r\n   
+        NO_STATE = 0,\r\n    FALL_STATE = 1,\r\n    GRAB_STATE = 2,\r\n    FIX_STATE
+        = 3,\r\n    DELETE_STATE = 4,\r\n    WAIT_STATE = 5,\r\n    -- \u30BC\u30ED\u5E45\u30B8\u30E7\u30A4\u30CA\u30FC\u5C02\u7528\u914D\u5217\r\n   
+        ZWJ_ARRAY = {},\r\n    -- \u30CF\u30A4\u30B5\u30ED\u30B2\u30FC\u30C8\u5C02\u7528\u914D\u5217\r\n   
+        HIGH_SURROGATE_ARRAY = {},\r\n    -- \u30ED\u30FC\u30B5\u30ED\u30B2\u30FC\u30C8\u5C02\u7528\u914D\u5217\r\n   
+        LOW_SURROGATE_ARRAY = {},\r\n    -- \u7570\u4F53\u5B57\u30BB\u30EC\u30AF\u30BF\u5C02\u7528\u914D\u5217\r\n   
+        VARIATION_SELECTOR_ARRAY = {},\r\n    -- \u30E9\u30F3\u30C0\u30E0\u4F4D\u7F6E\u914D\u5217\r\n   
+        RAND_ARRAY = {}\r\n}\r\n\r\n---\u3053\u3053\u81EA\u4F53\u521D\u671F\u5316\r\nlocal
+        function initialize()\r\n    -- \u30BC\u30ED\u5E45\u30B8\u30E7\u30A4\u30CA\u30FC200D\uFF5E200D\r\n   
+        for i = (16 ^ 3) * 2 + (16 ^ 2) * 0 + (16 ^ 1) * 0 + (16 ^ 0) * 13, (16 ^
+        3) * 2 + (16 ^ 2) * 0 + (16 ^ 1) * 0 +\r\n        (16 ^ 0) * 13 do\r\n       
+        _defineModule.ZWJ_ARRAY[string.char(i)] = true\r\n    end\r\n    -- \u30CF\u30A4\u30B5\u30ED\u30B2\u30FC\u30C8\u30DA\u30A2D800\uFF5EDBFF\r\n   
+        for i = (16 ^ 3) * 13 + (16 ^ 2) * 8 + (16 ^ 1) * 0 + (16 ^ 0) * 0, (16 ^
+        3) * 13 + (16 ^ 2) * 11 + (16 ^ 1) * 15 +\r\n        (16 ^ 0) * 15 do\r\n       
+        _defineModule.HIGH_SURROGATE_ARRAY[string.char(i)] = true\r\n    end\r\n   
+        -- \u30ED\u30FC\u30B5\u30ED\u30B2\u30FC\u30C8\u30DA\u30A2DC00\uFF5EDFFF\r\n   
+        for i = (16 ^ 3) * 13 + (16 ^ 2) * 12 + (16 ^ 1) * 0 + (16 ^ 0) * 0, (16
+        ^ 3) * 13 + (16 ^ 2) * 15 + (16 ^ 1) * 15 +\r\n        (16 ^ 0) * 15 do\r\n       
+        _defineModule.LOW_SURROGATE_ARRAY[string.char(i)] = true\r\n    end\r\n   
+        --------------\u7B26\u53F7\u4F4D\u7F6E--------------\r\n    -- \u7570\u4F53\u5B57\u30BB\u30EC\u30AF\u30BF180B\uFF5E180D\r\n   
+        for i = (16 ^ 3) * 1 + (16 ^ 2) * 8 + (16 ^ 1) * 0 + (16 ^ 0) * 11, (16 ^
+        3) * 1 + (16 ^ 2) * 8 + (16 ^ 1) * 0 +\r\n        (16 ^ 0) * 13 do\r\n       
+        _defineModule.VARIATION_SELECTOR_ARRAY[string.char(i)] = true\r\n    end\r\n   
+        -- \u7570\u4F53\u5B57\u30BB\u30EC\u30AF\u30BFFE00\uFF5EFE0F\r\n    for i
+        = (16 ^ 3) * 15 + (16 ^ 2) * 14 + (16 ^ 1) * 0 + (16 ^ 0) * 0, (16 ^ 3) *
+        15 + (16 ^ 2) * 14 + (16 ^ 1) * 0 +\r\n        (16 ^ 0) * 15 do\r\n       
+        _defineModule.VARIATION_SELECTOR_ARRAY[string.char(i)] = true\r\n    end\r\n   
+        -- \u7570\u4F53\u5B57\u30BB\u30EC\u30AF\u30BFE0100\uFF5EE01FE\r\n    for
+        i = (16 ^ 4) * 14 + (16 ^ 3) * 0 + (16 ^ 2) * 1 + (16 ^ 1) * 0 + (16 ^ 0)
+        * 0, (16 ^ 4) * 14 + (16 ^ 3) * 0 +\r\n        (16 ^ 2) * 1 + (16 ^ 1) *
+        15 + (16 ^ 0) * 14 do\r\n        _defineModule.VARIATION_SELECTOR_ARRAY[string.char(i)]
+        = true\r\n    end\r\n    --------------\u7B26\u53F7\u4F4D\u7F6E--------------\r\n   
+        local randMax = 5\r\n    for i = 1, randMax do\r\n        _defineModule.RAND_ARRAY[i]
+        = i - (randMax) / 2 - 0.5\r\n    end\r\nend\r\n\r\ninitialize()\r\n\r\nreturn
+        _defineModule\r\n"
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 81111799320777648bb5b69f06e6e8e4, type: 3}

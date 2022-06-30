@@ -138,7 +138,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 130
+  controlID: 137
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -326,23 +326,23 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 60fbffff
-      m_LastClickedID: -1184
+      m_SelectedIDs: e85cffff
+      m_LastClickedID: -41752
       m_ExpandedIDs: 64fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: Cube
+        m_OriginalName: Cube
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 0
+        m_UserData: -41758
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 0
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 9}
       m_SearchString: 
@@ -388,9 +388,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -2.9390514, y: 0.35052833, z: 0.13075513}
+    m_Target: {x: 0, y: 0, z: 0}
     speed: 2
-    m_Value: {x: -2.9390514, y: 0.35052833, z: 0.13075513}
+    m_Value: {x: -0.0000014014489, y: 0.00000016714493, z: 0.0000000623489}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -440,9 +440,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: -0.008598093, y: 0.96842265, z: -0.03372373, w: -0.24687351}
   m_Size:
-    m_Target: 0.18407734
+    m_Target: 0.008660254
     speed: 2
-    m_Value: 0.18407734
+    m_Value: 0.008660348
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -688,20 +688,20 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - "Assets/VCI\u30D1\u30C3\u30B1\u30FC\u30B8/FallComments/Script"
+    - "Assets/VCI\u30D1\u30C3\u30B1\u30FC\u30B8/\u30B3\u30E1\u30F3\u30C8\u53D6\u5F97"
   m_ViewMode: 1
   m_StartGridSize: 32
   m_LastFolders:
-  - "Assets/VCI\u30D1\u30C3\u30B1\u30FC\u30B8/FallComments/Script"
+  - "Assets/VCI\u30D1\u30C3\u30B1\u30FC\u30B8/\u30B3\u30E1\u30F3\u30C8\u53D6\u5F97"
   m_LastFoldersGridSize: 32
   m_LastProjectPath: Z:\git\UnityForVCI\UnityForVCI
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 118}
-    m_SelectedIDs: 58ba0000
-    m_LastClickedID: 47704
-    m_ExpandedIDs: 0000000064b7000066b7000068b7000082b7000000ca9a3b
+    scrollPos: {x: 0, y: 106}
+    m_SelectedIDs: 44ba0000
+    m_LastClickedID: 47684
+    m_ExpandedIDs: 0000000064b7000066b7000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
